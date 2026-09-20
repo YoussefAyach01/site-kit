@@ -90,6 +90,7 @@ export function renderPage(c: SiteContent, { lang, root, baseUrl, year }: Render
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>${esc(name)} · ${esc(c.tagline[lang])}</title>
   <meta name="description" content="${esc(c.hero.sub[lang])}">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">

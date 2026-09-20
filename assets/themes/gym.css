@@ -1,0 +1,73 @@
+/* Atlas Fitness: chalk white, hard black type, one hot orange. Square corners. */
+.theme-gym {
+  --bg: #efeee9;
+  --surface: #111111;
+  --text: #111111;
+  --muted: #3d3d3a;
+  --accent: #c73400;
+  --on-accent: #ffffff;
+  --radius: 0;
+  --font-display: Impact, 'Arial Narrow Bold', 'Haettenschweiler', 'Arial Black', sans-serif;
+}
+.theme-gym h1,
+.theme-gym h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+:lang(ar).theme-gym h1,
+:lang(ar).theme-gym h2 {
+  text-transform: none;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-weight: 800;
+}
+.theme-gym h1 {
+  font-size: clamp(3rem, 14vw, 7rem);
+  line-height: 0.95;
+}
+/* Hero is a black slab with chalk text, so remap the palette inside it */
+.theme-gym .hero {
+  --text: #efeee9;
+  --muted: #dcdad2;
+  --accent: #ff6a2b;
+  --on-accent: #111111;
+  background: #111111;
+  color: var(--text);
+}
+.theme-gym .hero__art {
+  background: repeating-linear-gradient(90deg, #ff6a2b 0 24px, #111111 24px 48px);
+  min-height: 3rem;
+}
+.theme-gym .service-list {
+  gap: 0;
+}
+.theme-gym .service {
+  padding-block: var(--space-4);
+  border-block-start: 3px solid var(--text);
+}
+.theme-gym .service__leader {
+  display: none;
+}
+.theme-gym .service__head {
+  justify-content: space-between;
+}
+.theme-gym .service__price {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+}
+.theme-gym .quote {
+  background: #111111;
+  color: #efeee9;
+}
+.theme-gym .quote figcaption {
+  color: #dcdad2;
+}
+.theme-gym .highlights li {
+  border: 2px solid var(--text);
+  border-radius: 0;
+}
+
+.theme-gym h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}

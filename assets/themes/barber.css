@@ -1,0 +1,44 @@
+/* Le Rasoir d'Or: black shop sign, barber-pole stripes */
+.theme-barber {
+  --bg: #0f0f0f;
+  --surface: #191919;
+  --text: #f4f1ea;
+  --muted: #cfcac0;
+  --accent: #ff4d3d;
+  --on-accent: #0f0f0f;
+  --font-display: Bahnschrift, 'Arial Narrow', 'Franklin Gothic Medium', Impact, sans-serif;
+}
+.theme-barber h1,
+.theme-barber h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+:lang(ar).theme-barber h1,
+:lang(ar).theme-barber h2 {
+  text-transform: none;
+}
+.theme-barber .hero__art {
+  background: repeating-linear-gradient(
+    -45deg,
+    #ff4d3d 0 28px,
+    #f4f1ea 28px 56px,
+    #2f6fff 56px 84px,
+    #f4f1ea 84px 112px
+  );
+  border-inline-start: 10px solid #0f0f0f;
+  box-shadow: inset 0 0 0 10px #0f0f0f;
+}
+.theme-barber .service {
+  padding-block-end: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-barber .service__leader {
+  display: none;
+}
+.theme-barber .service__head {
+  justify-content: space-between;
+}
+.theme-barber .service__price {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+}

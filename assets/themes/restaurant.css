@@ -1,0 +1,32 @@
+/* Dar Zitoun: deep green + saffron, zellige-inspired geometry */
+.theme-restaurant {
+  --bg: #12302a;
+  --surface: #1a3d35;
+  --text: #f6efdd;
+  --muted: #d3cfb9;
+  --accent: #f2b632;
+  --on-accent: #12302a;
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+}
+.theme-restaurant h1 {
+  font-style: italic;
+  font-weight: 500;
+}
+.theme-restaurant .hero__art {
+  background:
+    conic-gradient(
+        from 45deg at 50% 50%,
+        var(--accent) 0 25%,
+        transparent 0 50%,
+        var(--accent) 0 75%,
+        transparent 0
+      )
+      0 0 / 56px 56px,
+    conic-gradient(from 0deg at 50% 50%, #0d221d 0 25%, #1f4c41 0 50%, #0d221d 0 75%, #1f4c41 0) 0 0 / 28px
+      28px;
+  border-block-start: 6px solid var(--accent);
+}
+.theme-restaurant .service__price {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}

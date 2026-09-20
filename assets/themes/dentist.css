@@ -1,0 +1,46 @@
+/* Cabinet Amrani: calm teal, generous rounding, soft shapes */
+.theme-dentist {
+  --bg: #f3fafb;
+  --surface: #dff1f3;
+  --text: #0b2a33;
+  --muted: #3f5c65;
+  --accent: #0a6f79;
+  --on-accent: #ffffff;
+  --radius: 20px;
+  --font-display: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+}
+.theme-dentist h1,
+.theme-dentist h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.theme-dentist .hero__art {
+  background:
+    radial-gradient(circle at 30% 35%, #ffffff 0 22%, transparent 23%),
+    radial-gradient(circle at 68% 60%, #ffffff 0 30%, transparent 31%),
+    radial-gradient(circle at 45% 80%, #bfe3e7 0 18%, transparent 19%), #a9dbe0;
+  border-end-start-radius: 120px;
+}
+.theme-dentist .service-list {
+  gap: var(--space-4);
+}
+.theme-dentist .service {
+  padding: var(--space-6);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.theme-dentist .service__leader {
+  display: none;
+}
+.theme-dentist .service__head {
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.theme-dentist .service__price {
+  font-size: 1.25rem;
+}
+.theme-dentist .quote {
+  background: #fff;
+  border: 1px solid var(--line);
+}

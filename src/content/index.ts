@@ -44,6 +44,14 @@ import { movingCompany } from './moving-company.ts';
 import { cleaningService } from './cleaning-service.ts';
 import { hvacRepair } from './hvac-repair.ts';
 
+// Professional Services
+import { lawFirm } from './law-firm.ts';
+import { accountingFirm } from './accounting-firm.ts';
+import { realEstateAgency } from './real-estate-agency.ts';
+import { architectureStudio } from './architecture-studio.ts';
+import { insuranceBroker } from './insurance-broker.ts';
+import { notary } from './notary.ts';
+
 export const TEMPLATES: readonly SiteContent[] = [
   // Original templates
   restaurant,
@@ -86,4 +94,11 @@ export const TEMPLATES: readonly SiteContent[] = [
   movingCompany,
   cleaningService,
   hvacRepair,
+  // Professional Services
+  lawFirm,
+  accountingFirm,
+  realEstateAgency,
+  architectureStudio,
+  insuranceBroker,
+  notary,
 ];

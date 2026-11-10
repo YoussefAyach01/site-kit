@@ -1,0 +1,40 @@
+/* Les Cles d'Anfa: warm sandstone and walnut, terracotta accent */
+.theme-real-estate-agency {
+  --bg: #faf5ee;
+  --surface: #efe5d6;
+  --text: #2d2118;
+  --muted: #5c4b3c;
+  --accent: #a2541f;
+  --on-accent: #ffffff;
+  --radius: 10px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-real-estate-agency h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-real-estate-agency .hero {
+  --text: #fbf4ea;
+  --muted: #e3d6c4;
+  --accent: #f0b36a;
+  --on-accent: #2d2118;
+  background: #2d2118;
+  color: var(--text);
+}
+.theme-real-estate-agency .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-real-estate-agency .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-real-estate-agency .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-real-estate-agency .highlights li {
+  background: var(--surface);
+  border: none;
+}

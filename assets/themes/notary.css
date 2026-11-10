@@ -1,0 +1,40 @@
+/* Etude Bennani: aged paper and dark walnut, oxblood accent */
+.theme-notary {
+  --bg: #f5f0e6;
+  --surface: #e8dfcd;
+  --text: #2a1f1a;
+  --muted: #5a4a40;
+  --accent: #6e2c1f;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-notary h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-notary .hero {
+  --text: #f7f0e4;
+  --muted: #e0d4c0;
+  --accent: #e0b878;
+  --on-accent: #2a1f1a;
+  background: #2a1f1a;
+  color: var(--text);
+}
+.theme-notary .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-notary .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-notary .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-notary .highlights li {
+  background: var(--surface);
+  border: none;
+}

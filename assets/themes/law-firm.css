@@ -1,0 +1,40 @@
+/* Cabinet Benjelloun: parchment and navy ink, burgundy accent */
+.theme-law-firm {
+  --bg: #f4f1ec;
+  --surface: #e8e2d8;
+  --text: #1b2433;
+  --muted: #4a5366;
+  --accent: #7a1f2b;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-law-firm h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-law-firm .hero {
+  --text: #f4f1ec;
+  --muted: #d3d0c8;
+  --accent: #d9b26a;
+  --on-accent: #1b2433;
+  background: #1b2433;
+  color: var(--text);
+}
+.theme-law-firm .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-law-firm .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-law-firm .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-law-firm .highlights li {
+  background: var(--surface);
+  border: none;
+}

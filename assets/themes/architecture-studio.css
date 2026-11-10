@@ -1,0 +1,40 @@
+/* Atelier Zellige: blueprint blue on cool paper, precise and light */
+.theme-architecture-studio {
+  --bg: #f1f3f6;
+  --surface: #e0e5ec;
+  --text: #131c2e;
+  --muted: #404c63;
+  --accent: #214a8f;
+  --on-accent: #ffffff;
+  --radius: 0;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-architecture-studio h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-architecture-studio .hero {
+  --text: #f1f3f6;
+  --muted: #ccd3df;
+  --accent: #8fb4f2;
+  --on-accent: #131c2e;
+  background: #131c2e;
+  color: var(--text);
+}
+.theme-architecture-studio .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-architecture-studio .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-architecture-studio .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-architecture-studio .highlights li {
+  background: var(--surface);
+  border: none;
+}

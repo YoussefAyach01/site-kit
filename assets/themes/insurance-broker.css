@@ -1,0 +1,40 @@
+/* Serenite Assurances: warm grey-white and slate, teal accent */
+.theme-insurance-broker {
+  --bg: #f6f3ee;
+  --surface: #e9e3d8;
+  --text: #1f2a37;
+  --muted: #485466;
+  --accent: #0f6b66;
+  --on-accent: #ffffff;
+  --radius: 8px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-insurance-broker h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-insurance-broker .hero {
+  --text: #f6f3ee;
+  --muted: #d4d2cb;
+  --accent: #6fd3c9;
+  --on-accent: #1f2a37;
+  background: #1f2a37;
+  color: var(--text);
+}
+.theme-insurance-broker .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-insurance-broker .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-insurance-broker .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-insurance-broker .highlights li {
+  background: var(--surface);
+  border: none;
+}

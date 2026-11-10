@@ -1,0 +1,40 @@
+/* Chiffres Clairs: pale sage and deep green, calm and exact */
+.theme-accounting-firm {
+  --bg: #f3f6f4;
+  --surface: #e1e9e4;
+  --text: #16302a;
+  --muted: #43594f;
+  --accent: #1f6b52;
+  --on-accent: #ffffff;
+  --radius: 6px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-accounting-firm h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-accounting-firm .hero {
+  --text: #f3f6f4;
+  --muted: #cfdcd5;
+  --accent: #7fd1ae;
+  --on-accent: #16302a;
+  background: #16302a;
+  color: var(--text);
+}
+.theme-accounting-firm .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-accounting-firm .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-accounting-firm .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-accounting-firm .highlights li {
+  background: var(--surface);
+  border: none;
+}

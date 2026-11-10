@@ -46,7 +46,7 @@ export const furnitureStore: SiteContent = {
       name: { fr: 'Table basse en bois massif', ar: 'طاولة قهوة من الخشب الصلب' },
       desc: {
         fr: 'Chêne huilé, pieds fuselés, diamètre 90 cm.',
-        ar: 'بلوط مزيّت وأرجل مدببة وقطر 90 سم.',
+        ar: 'بلوط مزيّت وأرجل مخروطية وقطر 90 سم.',
       },
       priceMad: 2400,
     },

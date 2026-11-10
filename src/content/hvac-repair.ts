@@ -11,7 +11,7 @@ export const hvacRepair: SiteContent = {
       fr: 'Diagnostic sur place, pièces d’origine, intervention le jour même dans toute l’agglomération. Un devis clair avant de toucher à quoi que ce soit.',
       ar: 'تشخيص في عين المكان، وقطع غيار أصلية، وتدخّل في اليوم نفسه بكل أنحاء المدينة. عرض سعر واضح قبل أي عمل.',
     },
-    cta: { fr: 'Demander un dépannage', ar: 'اطلب تدخّلاً عاجلاً' },
+    cta: { fr: 'Demander un dépannage', ar: 'اطلبوا تدخّلاً عاجلاً' },
   },
   heroImage: {
     alt: {

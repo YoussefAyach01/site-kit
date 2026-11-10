@@ -9,7 +9,7 @@ export const autoRepairShop: SiteContent = {
     title: { fr: 'On vous montre la panne avant de la réparer.', ar: 'نريكم العطل قبل أن نصلحه.' },
     sub: {
       fr: 'Diagnostic électronique, freins, distribution, climatisation. Devis détaillé par écrit, anciennes pièces rendues sur demande, voiture prête au jour annoncé.',
-      ar: 'تشخيص إلكتروني وفرامل وسلسلة التوقيت وتكييف. عرض سعر مفصل كتابةً، وإرجاع القطع القديمة عند الطلب، وسيارة جاهزة في الموعد المعلن.',
+      ar: 'تشخيص إلكتروني وفرامل ونظام التوقيت وتكييف. عرض سعر مفصل كتابةً، وإرجاع القطع القديمة عند الطلب، وسيارة جاهزة في الموعد المعلن.',
     },
     cta: { fr: 'Prendre rendez-vous', ar: 'احجزوا موعدًا' },
   },
@@ -27,7 +27,7 @@ export const autoRepairShop: SiteContent = {
         'Nous préférons réparer proprement une pièce qui peut l’être plutôt que de vous faire changer tout un ensemble.',
       ],
       ar: [
-        'يديره أخوان ميكانيكيان تكوّنا لدى مصنّعي سيارات واستقرا بالدار البيضاء منذ قرابة ثلاثين سنة. يعمل ست تقنيين فوق جسرينا وحفرتنا.',
+        'يدير مرآب بوعزة أخوان ميكانيكيان تكوّنا لدى مصنّعي سيارات واستقرا بالدار البيضاء منذ قرابة ثلاثين سنة. يعمل ستة تقنيين على رافعتين وحفرة صيانة.',
         'نفضّل إصلاح قطعة صالحة للإصلاح على أن نجعلكم تبدلون مجموعة كاملة.',
       ],
     },
@@ -51,7 +51,7 @@ export const autoRepairShop: SiteContent = {
       priceMad: 200,
     },
     {
-      name: { fr: 'Freins avant (plaquettes et disques)', ar: 'فرامل أمامية (قطع وأقراص)' },
+      name: { fr: 'Freins avant (plaquettes et disques)', ar: 'فرامل أمامية (صفائح وأقراص)' },
       desc: {
         fr: 'Pièces de marque, main-d’œuvre incluse, garantie 12 mois.',
         ar: 'قطع من علامات معروفة مع اليد العاملة وضمان 12 شهرًا.',
@@ -59,7 +59,7 @@ export const autoRepairShop: SiteContent = {
       priceMad: 1100,
     },
     {
-      name: { fr: 'Kit de distribution', ar: 'طقم سلسلة التوقيت' },
+      name: { fr: 'Kit de distribution', ar: 'طقم سير التوقيت' },
       desc: {
         fr: 'Courroie, galets et pompe à eau, devis selon le véhicule.',
         ar: 'سير وبكرات ومضخة ماء، عرض سعر حسب السيارة.',

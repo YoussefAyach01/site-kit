@@ -11,7 +11,7 @@ export const insuranceBroker: SiteContent = {
       fr: 'Nous comparons les offres de plusieurs compagnies, lisons les petites lignes à votre place et vous défendons au moment du sinistre.',
       ar: 'نقارن عروض عدة شركات، ونقرأ البنود الصغيرة نيابة عنكم، وندافع عنكم عند وقوع الحادث.',
     },
-    cta: { fr: 'Comparer mes assurances', ar: 'قارنوا تأميناتي' },
+    cta: { fr: 'Comparer mes assurances', ar: 'قارنوا تأميناتكم' },
   },
   heroImage: {
     alt: {

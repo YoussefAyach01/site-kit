@@ -12,7 +12,7 @@ export const bookstore: SiteContent = {
     title: { fr: 'Un fauteuil, une pile de livres, du temps.', ar: 'كرسي وكومة كتب ووقت.' },
     sub: {
       fr: 'Romans, essais, bandes dessinées et littérature jeunesse en français, en arabe et en anglais. Les libraires lisent ce qu’ils vous conseillent.',
-      ar: 'روايات ومقالات وقصص مصورة وأدب الأطفال بالفرنسية والعربية والإنجليزية. أمناء المكتبة يقرؤون ما ينصحون به.',
+      ar: 'روايات ودراسات وقصص مصورة وأدب الأطفال بالفرنسية والعربية والإنجليزية. كتبيّونا يقرؤون ما ينصحون به.',
     },
     cta: { fr: 'Demander un livre', ar: 'اطلبوا كتابًا' },
   },
@@ -38,7 +38,7 @@ export const bookstore: SiteContent = {
   servicesTitle: { fr: 'Ce que vous trouverez', ar: 'ما ستجدونه' },
   services: [
     {
-      name: { fr: 'Romans et essais', ar: 'روايات ومقالات' },
+      name: { fr: 'Romans et essais', ar: 'روايات ودراسات' },
       desc: {
         fr: 'Littérature marocaine, arabe et internationale, neuf et poche.',
         ar: 'أدب مغربي وعربي وعالمي، جديد وبحجم الجيب.',
@@ -76,7 +76,7 @@ export const bookstore: SiteContent = {
       priceMad: 0,
     },
   ],
-  highlightsTitle: { fr: 'Pourquoi venir', ar: 'لماذا تزورونا' },
+  highlightsTitle: { fr: 'Pourquoi venir', ar: 'لماذا تزوروننا' },
   highlights: [
     { fr: '20 000 titres', ar: '20 000 عنوان' },
     { fr: 'Trois langues', ar: 'ثلاث لغات' },
@@ -94,7 +94,7 @@ export const bookstore: SiteContent = {
     {
       quote: {
         fr: 'Le libraire m’a conseillé un roman que je n’aurais jamais choisi. Coup de cœur.',
-        ar: 'نصحني أمين المكتبة برواية لم أكن لأختارها. أُعجبت بها كثيرًا.',
+        ar: 'نصحني الكتبي برواية لم أكن لأختارها. أُعجبت بها كثيرًا.',
       },
       author: { fr: 'Leïla, Tétouan', ar: 'ليلى، تطوان' },
     },

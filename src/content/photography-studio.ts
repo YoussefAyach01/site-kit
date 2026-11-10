@@ -9,7 +9,7 @@ export const photographyStudio: SiteContent = {
     title: { fr: 'Des images qui ressemblent à ce que vous êtes.', ar: 'صور تشبه حقيقتكم.' },
     sub: {
       fr: 'Portraits de famille et professionnels, photos de produits pour boutiques en ligne, mariages et événements. Retouches soignées, livraison de la galerie en sept jours.',
-      ar: 'بورتريه عائلي ومهني، وصور منتجات للمتاجر الإلكترونية، وحفلات زفاف ومناسبات. تعديل متقن وتسليم المعرض خلال سبعة أيام.',
+      ar: 'بورتريه عائلي ومهني، وصور منتجات للمتاجر الإلكترونية، وحفلات زفاف ومناسبات. تعديل متقن وتسليم معرض الصور خلال سبعة أيام.',
     },
     cta: { fr: 'Réserver une séance', ar: 'احجزوا جلسة' },
   },
@@ -54,7 +54,7 @@ export const photographyStudio: SiteContent = {
       name: { fr: 'Photo de produit (par article)', ar: 'تصوير منتج (للقطعة)' },
       desc: {
         fr: 'Fond blanc et mise en situation, fichiers prêts pour votre boutique en ligne.',
-        ar: 'خلفية بيضاء ومشهد توظيفي وملفات جاهزة لمتجركم الإلكتروني.',
+        ar: 'خلفية بيضاء وصور في سياق الاستعمال وملفات جاهزة لمتجركم الإلكتروني.',
       },
       priceMad: 120,
     },
@@ -77,7 +77,7 @@ export const photographyStudio: SiteContent = {
   highlightsTitle: { fr: 'Notre manière de faire', ar: 'طريقتنا في العمل' },
   highlights: [
     { fr: 'Lumière naturelle', ar: 'ضوء طبيعي' },
-    { fr: 'Galerie en 7 jours', ar: 'معرض خلال 7 أيام' },
+    { fr: 'Galerie en 7 jours', ar: 'معرض الصور خلال 7 أيام' },
     { fr: 'Retouches soignées incluses', ar: 'تعديل متقن مشمول' },
     { fr: 'Droits d’usage inclus', ar: 'حقوق الاستعمال مشمولة' },
   ],

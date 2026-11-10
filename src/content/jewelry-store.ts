@@ -9,7 +9,7 @@ export const jewelryStore: SiteContent = {
     ar: 'مجوهرات من الذهب عيار 18، تصاميم وإصلاحات',
   },
   hero: {
-    title: { fr: 'Un bijou qui raconte quelque chose.', ar: 'مجوهرة تحكي شيئًا.' },
+    title: { fr: 'Un bijou qui raconte quelque chose.', ar: 'حلية تحكي حكاية.' },
     sub: {
       fr: 'Colliers, bagues et bracelets en or 18 carats, créés dans notre atelier ou gravés à votre demande. Poinçon garanti, prix au gramme affiché.',
       ar: 'قلائد وخواتم وأساور من الذهب عيار 18، تُصنع في ورشتنا أو تُنقش حسب طلبكم. دمغة مضمونة وسعر الغرام معلن.',

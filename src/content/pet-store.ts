@@ -89,7 +89,7 @@ export const petStore: SiteContent = {
     {
       quote: {
         fr: 'Mon chien digère enfin ses croquettes. On m’a proposé trois marques à essayer, gratuitement.',
-        ar: 'كلبي هضم غذاءه أخيرًا. اقترحوا علي ثلاث علامات للتجربة مجانًا.',
+        ar: 'صار كلبي يهضم غذاءه أخيرًا. اقترحوا علي ثلاث علامات للتجربة مجانًا.',
       },
       author: { fr: 'Samir, Agadir', ar: 'سمير، أكادير' },
     },

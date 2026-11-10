@@ -9,7 +9,7 @@ export const usedCarDealership: SiteContent = {
     title: { fr: 'Une occasion dont on connaît toute l’histoire.', ar: 'سيارة مستعملة نعرف تاريخها كله.' },
     sub: {
       fr: 'Chaque véhicule est contrôlé en 120 points, son kilométrage vérifié et son historique remis par écrit. Garantie mécanique de six mois et reprise de votre ancienne voiture.',
-      ar: 'تُفحص كل سيارة في 120 نقطة، ويُتحقق من كيلومتراتها ويُسلَّم تاريخها كتابةً. ضمان ميكانيكي لستة أشهر واسترجاع سيارتكم القديمة.',
+      ar: 'تُفحص كل سيارة في 120 نقطة، ويُتحقق من كيلومتراتها ويُسلَّم تاريخها كتابةً. ضمان ميكانيكي لستة أشهر واستبدال سيارتكم القديمة.',
     },
     cta: { fr: 'Voir les véhicules', ar: 'شاهدوا السيارات' },
   },
@@ -51,7 +51,7 @@ export const usedCarDealership: SiteContent = {
       priceMad: 160000,
     },
     {
-      name: { fr: 'Reprise de votre ancienne voiture', ar: 'استرجاع سيارتكم القديمة' },
+      name: { fr: 'Reprise de votre ancienne voiture', ar: 'استبدال سيارتكم القديمة' },
       desc: {
         fr: 'Estimation gratuite sous une heure, déduite du prix du nouveau véhicule.',
         ar: 'تقدير مجاني خلال ساعة، يُخصم من ثمن السيارة الجديدة.',
@@ -79,7 +79,7 @@ export const usedCarDealership: SiteContent = {
     { fr: 'Contrôle en 120 points', ar: 'فحص من 120 نقطة' },
     { fr: 'Garantie 6 mois', ar: 'ضمان 6 أشهر' },
     { fr: 'Historique remis par écrit', ar: 'تاريخ مسلَّم كتابةً' },
-    { fr: 'Reprise de votre voiture', ar: 'استرجاع سيارتكم' },
+    { fr: 'Reprise de votre voiture', ar: 'استبدال سيارتكم' },
   ],
   testimonials: [
     {
@@ -92,7 +92,7 @@ export const usedCarDealership: SiteContent = {
     {
       quote: {
         fr: 'Ils ont repris ma vieille voiture à un prix honnête et simplifié tout le crédit.',
-        ar: 'استرجعوا سيارتي القديمة بثمن عادل وسهّلوا كل إجراءات القرض.',
+        ar: 'أخذوا سيارتي القديمة بثمن عادل وسهّلوا كل إجراءات القرض.',
       },
       author: { fr: 'Samira, Settat', ar: 'سميرة، سطات' },
     },

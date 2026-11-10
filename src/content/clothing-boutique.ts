@@ -9,14 +9,14 @@ export const clothingBoutique: SiteContent = {
     title: { fr: 'Des vêtements qu’on garde des années.', ar: 'ملابس تبقى معكم سنوات.' },
     sub: {
       fr: 'Matières naturelles, coupes simples, petites séries. Une boutique où l’on prend le temps d’essayer et de composer une tenue qui vous ressemble.',
-      ar: 'خامات طبيعية وقصّات بسيطة وسلاسل صغيرة. بوتيك نأخذ فيه الوقت للتجريب وتكوين إطلالة تشبهكم.',
+      ar: 'خامات طبيعية وقصّات بسيطة وكميات محدودة. بوتيك نأخذ فيه الوقت للتجريب وتكوين إطلالة تشبهكم.',
     },
     cta: { fr: 'Venir essayer', ar: 'تعالوا للتجريب' },
   },
   heroImage: {
     alt: {
       fr: 'Portant de vêtements en lin et en laine dans des tons neutres près d’une grande baie vitrée, avec un panier et des fleurs séchées',
-      ar: 'شماعة ملابس من الكتان والصوف بألوان محايدة قرب نافذة زجاجية كبيرة، مع سلة وزهور مجففة',
+      ar: 'حامل عليه ملابس من الكتان والصوف بألوان محايدة قرب نافذة زجاجية كبيرة، مع سلة وزهور مجففة',
     },
   },
   about: {
@@ -28,7 +28,7 @@ export const clothingBoutique: SiteContent = {
       ],
       ar: [
         'وُلد "بوتيك لينا" بمراكش سنة 2016 من رغبة في تقديم بديل للموضة السريعة: قطع متينة تصنعها ورشات نزورها بأنفسنا.',
-        'كل مجموعة تتسع لشماعة واحدة. نماذج قليلة، لكننا نرتديها نحن أيضًا.',
+        'كل مجموعة يكفيها حامل واحد. نماذج قليلة، لكننا نرتديها نحن أيضًا.',
       ],
     },
   },
@@ -77,7 +77,7 @@ export const clothingBoutique: SiteContent = {
   highlightsTitle: { fr: 'Notre engagement', ar: 'التزامنا' },
   highlights: [
     { fr: 'Matières naturelles', ar: 'خامات طبيعية' },
-    { fr: 'Petites séries', ar: 'سلاسل صغيرة' },
+    { fr: 'Petites séries', ar: 'كميات محدودة' },
     { fr: 'Retouches offertes', ar: 'تعديلات مجانية' },
     { fr: 'Échange sous 14 jours', ar: 'استبدال خلال 14 يومًا' },
   ],

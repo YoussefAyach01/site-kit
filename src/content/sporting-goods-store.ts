@@ -28,7 +28,7 @@ export const sportingGoodsStore: SiteContent = {
       ],
       ar: [
         'افتتح "ملعب حر للرياضة" بطنجة سنة 2014، أسسه لاعب كرة سلة سابق وعدّاءة نصف ماراثون. يرعى المتجر ثلاثة أندية للحي.',
-        'نحلل خطواتكم على المضمار قبل اقتراح أحذية الجري. الاختيار الصحيح يجنّب الإصابة ويوفر المال.',
+        'نحلل خطواتكم على جهاز المشي قبل اقتراح أحذية الجري. الاختيار الصحيح يجنّب الإصابة ويوفر المال.',
       ],
     },
   },
@@ -62,7 +62,7 @@ export const sportingGoodsStore: SiteContent = {
       name: { fr: 'Équipement fitness maison', ar: 'معدات لياقة منزلية' },
       desc: {
         fr: 'Haltères, tapis, élastiques et bancs, conseils de programme inclus.',
-        ar: 'دمبل وسجاجيد وأحزمة مطاطية ومقاعد مع نصائح برنامج تدريبي.',
+        ar: 'دمبل وحصائر تمارين وأحزمة مطاطية ومقاعد مع نصائح برنامج تدريبي.',
       },
       priceMad: 120,
     },
@@ -92,7 +92,7 @@ export const sportingGoodsStore: SiteContent = {
     {
       quote: {
         fr: 'Notre club a équipé quinze joueurs à prix coûtant. Service impeccable.',
-        ar: 'جهّز ناديّنا خمسة عشر لاعبًا بسعر التكلفة. خدمة ممتازة.',
+        ar: 'جهّز نادينا خمسة عشر لاعبًا بسعر التكلفة. خدمة ممتازة.',
       },
       author: { fr: 'Jawad, entraîneur, Tétouan', ar: 'جواد، مدرب، تطوان' },
     },

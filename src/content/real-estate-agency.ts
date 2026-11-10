@@ -43,7 +43,7 @@ export const realEstateAgency: SiteContent = {
       priceMad: 0,
     },
     {
-      name: { fr: 'Mise en vente (mandat)', ar: 'عرض للبيع (وكالة)' },
+      name: { fr: 'Mise en vente (mandat)', ar: 'عرض للبيع (بتوكيل)' },
       desc: {
         fr: 'Photos professionnelles, annonces, visites filtrées. Commission de 2,5 % à la vente.',
         ar: 'صور احترافية وإعلانات وزيارات مُنتقاة. عمولة 2,5 % عند البيع.',
@@ -75,7 +75,7 @@ export const realEstateAgency: SiteContent = {
   highlightsTitle: { fr: 'Pourquoi nous choisir', ar: 'لماذا نحن' },
   highlights: [
     { fr: 'Estimation gratuite', ar: 'تقدير مجاني' },
-    { fr: 'Titres fonciers vérifiés', ar: 'رسوم عقارية موثّقة' },
+    { fr: 'Titres fonciers vérifiés', ar: 'رسوم عقارية مدققة' },
     { fr: 'Visites sur rendez-vous', ar: 'زيارات بموعد' },
     { fr: 'Accompagnement notarial', ar: 'مرافقة لدى الموثق' },
   ],

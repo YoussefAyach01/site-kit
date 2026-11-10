@@ -71,6 +71,11 @@ import { carDetailing } from './car-detailing.ts';
 import { carRental } from './car-rental.ts';
 import { usedCarDealership } from './used-car-dealership.ts';
 
+// Education & Creative
+import { drivingSchool } from './driving-school.ts';
+import { musicSchool } from './music-school.ts';
+import { photographyStudio } from './photography-studio.ts';
+
 export const TEMPLATES: readonly SiteContent[] = [
   // Original templates
   restaurant,
@@ -137,4 +142,8 @@ export const TEMPLATES: readonly SiteContent[] = [
   carDetailing,
   carRental,
   usedCarDealership,
+  // Education & Creative
+  drivingSchool,
+  musicSchool,
+  photographyStudio,
 ];

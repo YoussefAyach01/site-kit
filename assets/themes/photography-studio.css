@@ -1,0 +1,40 @@
+/* Studio Lumiere Brute: gallery white and charcoal, muted brick accent */
+.theme-photography-studio {
+  --bg: #f2f2f0;
+  --surface: #e2e2de;
+  --text: #161616;
+  --muted: #474747;
+  --accent: #7a2e2e;
+  --on-accent: #ffffff;
+  --radius: 0;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-photography-studio h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-photography-studio .hero {
+  --text: #f2f2f0;
+  --muted: #d0d0cc;
+  --accent: #e9a0a0;
+  --on-accent: #161616;
+  background: #161616;
+  color: var(--text);
+}
+.theme-photography-studio .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-photography-studio .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-photography-studio .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-photography-studio .highlights li {
+  background: var(--surface);
+  border: none;
+}

@@ -1,0 +1,40 @@
+/* Conservatoire Libre Melodie: piano-room cream and walnut, copper accent */
+.theme-music-school {
+  --bg: #f8f1e6;
+  --surface: #ecdfcb;
+  --text: #2d1f17;
+  --muted: #5e4a3c;
+  --accent: #8c3a1c;
+  --on-accent: #ffffff;
+  --radius: 6px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-music-school h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-music-school .hero {
+  --text: #faf1e4;
+  --muted: #e3d4bf;
+  --accent: #f0b27a;
+  --on-accent: #2d1f17;
+  background: #2d1f17;
+  color: var(--text);
+}
+.theme-music-school .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-music-school .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-music-school .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-music-school .highlights li {
+  background: var(--surface);
+  border: none;
+}

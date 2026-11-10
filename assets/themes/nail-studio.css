@@ -1,0 +1,48 @@
+/* Nail Bar Velours: dusty terracotta rose, travertine warmth, plush rounding */
+.theme-nail-studio {
+  --bg: #f7ece3;
+  --surface: #eed9cb;
+  --text: #2b2019;
+  --muted: #6d5c4e;
+  --accent: #c77b6a;
+  --on-accent: #fbf3ec;
+  --radius: 18px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-nail-studio h1 {
+  font-weight: 500;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-nail-studio .hero {
+  --text: #fbf3ec;
+  --muted: #e9cdbd;
+  --accent: #e3917d;
+  --on-accent: #2b2019;
+  background: #321d16;
+  color: var(--text);
+}
+.theme-nail-studio .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-nail-studio .service {
+  padding: var(--space-6);
+  background: #fff;
+  border-radius: var(--radius);
+}
+.theme-nail-studio .service__leader {
+  display: none;
+}
+.theme-nail-studio .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-nail-studio .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-nail-studio .quote {
+  background: var(--surface);
+}

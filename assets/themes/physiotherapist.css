@@ -1,0 +1,47 @@
+/* Kiné de la Source: warm terracotta plaster, rust and amber linens, soft rounding */
+.theme-physiotherapist {
+  --bg: #f6ede3;
+  --surface: #ecd9c6;
+  --text: #2e2318;
+  --muted: #6e5c49;
+  --accent: #b5542f;
+  --on-accent: #fbf3e8;
+  --radius: 14px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-physiotherapist h1 {
+  font-weight: 500;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-physiotherapist .hero {
+  --text: #fbf3e8;
+  --muted: #e6cdb5;
+  --accent: #e08a52;
+  --on-accent: #2e2318;
+  background: #3a2417;
+  color: var(--text);
+}
+.theme-physiotherapist .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-physiotherapist .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-physiotherapist .service__leader {
+  display: none;
+}
+.theme-physiotherapist .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-physiotherapist .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-physiotherapist .quote {
+  background: var(--surface);
+}

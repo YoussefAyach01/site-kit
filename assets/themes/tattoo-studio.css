@@ -1,0 +1,62 @@
+/* Encre & Racines: deep rust and copper, artist-workshop edge, sharp corners */
+.theme-tattoo-studio {
+  --bg: #efe2d4;
+  --surface: #ddc2a8;
+  --text: #221712;
+  --muted: #5a4a3b;
+  --accent: #8c4a2e;
+  --on-accent: #f6ece0;
+  --radius: 6px;
+  --font-display: 'Bahnschrift', 'Arial Narrow', 'Franklin Gothic Medium', sans-serif;
+}
+.theme-tattoo-studio h1,
+.theme-tattoo-studio h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+:lang(ar).theme-tattoo-studio h1,
+:lang(ar).theme-tattoo-studio h2 {
+  text-transform: none;
+  font-weight: 800;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-tattoo-studio .hero {
+  --text: #f6ece0;
+  --muted: #d4b291;
+  --accent: #d97d4a;
+  --on-accent: #221712;
+  background: #221209;
+  color: var(--text);
+}
+.theme-tattoo-studio .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-tattoo-studio .service {
+  padding-block: var(--space-4);
+  border-block-start: 2px solid var(--text);
+}
+.theme-tattoo-studio .service__leader {
+  display: none;
+}
+.theme-tattoo-studio .service__head {
+  justify-content: space-between;
+}
+.theme-tattoo-studio .service__price {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.theme-tattoo-studio .quote {
+  background: #221209;
+  color: #f6ece0;
+}
+.theme-tattoo-studio .quote figcaption {
+  color: #d4b291;
+}
+.theme-tattoo-studio .highlights li {
+  border: 1px solid var(--text);
+  border-radius: var(--radius);
+}

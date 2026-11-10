@@ -1,0 +1,54 @@
+/* Salon L'Arche: backlit arch, copper warmth, half-pill rounding */
+.theme-hair-salon {
+  --bg: #f5e9df;
+  --surface: #ead4bf;
+  --text: #271f17;
+  --muted: #6a5a48;
+  --accent: #c17a3a;
+  --on-accent: #fbf2e6;
+  --radius: 999px 999px 8px 8px;
+  --font-display: 'Bodoni MT', Didot, Georgia, serif;
+}
+.theme-hair-salon h1,
+.theme-hair-salon h2 {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-hair-salon .hero {
+  --text: #fbf2e6;
+  --muted: #e4c6a1;
+  --accent: #e8a05a;
+  --on-accent: #271f17;
+  background: #2c1d13;
+  color: var(--text);
+}
+.theme-hair-salon .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-hair-salon .service {
+  padding: var(--space-6);
+  background: #fff;
+  border-radius: 20px;
+}
+.theme-hair-salon .service__leader {
+  display: none;
+}
+.theme-hair-salon .service__price {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.theme-hair-salon .quote {
+  background: #2c1d13;
+  color: #fbf2e6;
+}
+.theme-hair-salon .quote figcaption {
+  color: #e4c6a1;
+}
+.theme-hair-salon .highlights li {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}

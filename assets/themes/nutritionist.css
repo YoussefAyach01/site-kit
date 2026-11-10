@@ -1,0 +1,48 @@
+/* Table Grenade: pomegranate red-rust, warm bookish office, generous rounding */
+.theme-nutritionist {
+  --bg: #f8efe5;
+  --surface: #edd8c7;
+  --text: #2b2117;
+  --muted: #6c5c4a;
+  --accent: #a6473a;
+  --on-accent: #fbf4ea;
+  --radius: 16px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-nutritionist h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-nutritionist .hero {
+  --text: #fbf4ea;
+  --muted: #e4c8ab;
+  --accent: #e07a5f;
+  --on-accent: #2b2117;
+  background: #33231a;
+  color: var(--text);
+}
+.theme-nutritionist .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-nutritionist .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-nutritionist .service__leader {
+  display: none;
+}
+.theme-nutritionist .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-nutritionist .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-nutritionist .quote {
+  background: var(--surface);
+}

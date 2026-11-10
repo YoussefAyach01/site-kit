@@ -1,0 +1,48 @@
+/* Soline: warm cream, soft wood, sage green with a blush undertone for a spa-clinical mood */
+.theme-dermatology-clinic {
+  --bg: #f8f3ec;
+  --surface: #ecdfd8;
+  --text: #2c231f;
+  --muted: #6b5e55;
+  --accent: #8a9b7b;
+  --on-accent: #fbf6f0;
+  --radius: 20px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-dermatology-clinic h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-dermatology-clinic .hero {
+  --text: #fbf6f0;
+  --muted: #e6dcd0;
+  --accent: #c7a7a0;
+  --on-accent: #2c231f;
+  background: #332b26;
+  color: var(--text);
+}
+.theme-dermatology-clinic .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-dermatology-clinic .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-dermatology-clinic .service__leader {
+  display: none;
+}
+.theme-dermatology-clinic .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-dermatology-clinic .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-dermatology-clinic .quote {
+  background: var(--surface);
+}

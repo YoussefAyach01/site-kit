@@ -1,0 +1,50 @@
+/* Clinique Al Manar: warm cream, soft wood, deeper sage-teal, architectural calm */
+.theme-hospital {
+  --bg: #f6f3e9;
+  --surface: #e7e3d1;
+  --text: #22281f;
+  --muted: #5e6250;
+  --accent: #4f7066;
+  --on-accent: #fbf8f0;
+  --radius: 20px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-hospital h1,
+.theme-hospital h2 {
+  font-weight: 500;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-hospital .hero {
+  --text: #fbf8f0;
+  --muted: #dce3d8;
+  --accent: #9fc1b4;
+  --on-accent: #182420;
+  background: #182420;
+  color: var(--text);
+}
+.theme-hospital .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-hospital .service {
+  padding: var(--space-6);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.theme-hospital .service__leader {
+  display: none;
+}
+.theme-hospital .service__head {
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.theme-hospital .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-hospital .quote {
+  background: #fff;
+  border: 1px solid var(--line);
+}

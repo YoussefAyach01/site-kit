@@ -1,0 +1,47 @@
+/* Patte Douce: warm cream, soft wood, sage green with a warm amber touch */
+.theme-veterinary-clinic {
+  --bg: #f8f4e9;
+  --surface: #ede4d2;
+  --text: #2b2619;
+  --muted: #6a6050;
+  --accent: #80935f;
+  --on-accent: #fcf8ee;
+  --radius: 20px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-veterinary-clinic h1 {
+  font-weight: 500;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-veterinary-clinic .hero {
+  --text: #fcf8ee;
+  --muted: #e6dfc8;
+  --accent: #d8a978;
+  --on-accent: #2b2619;
+  background: #342c1c;
+  color: var(--text);
+}
+.theme-veterinary-clinic .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-veterinary-clinic .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-veterinary-clinic .service__leader {
+  display: none;
+}
+.theme-veterinary-clinic .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-veterinary-clinic .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-veterinary-clinic .quote {
+  background: var(--surface);
+}

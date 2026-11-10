@@ -1,0 +1,47 @@
+/* Petits Pas: warm cream, soft wood, sage green with a gentle coral touch for warmth */
+.theme-pediatrician {
+  --bg: #f9f4e9;
+  --surface: #eee6d6;
+  --text: #2d2a1e;
+  --muted: #6c6453;
+  --accent: #8aa36f;
+  --on-accent: #fdfaf2;
+  --radius: 22px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-pediatrician h1 {
+  font-weight: 500;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-pediatrician .hero {
+  --text: #fdfaf2;
+  --muted: #e6e0cd;
+  --accent: #e3a98a;
+  --on-accent: #2d2a1e;
+  background: #37392a;
+  color: var(--text);
+}
+.theme-pediatrician .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-pediatrician .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-pediatrician .service__leader {
+  display: none;
+}
+.theme-pediatrician .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-pediatrician .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-pediatrician .quote {
+  background: var(--surface);
+}

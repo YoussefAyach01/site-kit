@@ -1,0 +1,51 @@
+/* Centre Atlas: warm cream, soft wood, clearer sage-teal accent for a brisk, reassuring feel */
+.theme-urgent-care {
+  --bg: #f7f3e8;
+  --surface: #e9e4d2;
+  --text: #272a22;
+  --muted: #666052;
+  --accent: #5c7a63;
+  --on-accent: #fbf8f0;
+  --radius: 16px;
+  --font-display: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+}
+.theme-urgent-care h1,
+.theme-urgent-care h2 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-urgent-care .hero {
+  --text: #fbf8f0;
+  --muted: #dfe3d6;
+  --accent: #a8c2a0;
+  --on-accent: #20291f;
+  background: #20291f;
+  color: var(--text);
+}
+.theme-urgent-care .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-urgent-care .service {
+  padding: var(--space-4);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.theme-urgent-care .service__leader {
+  display: none;
+}
+.theme-urgent-care .service__head {
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.theme-urgent-care .highlights li {
+  background: var(--surface);
+  border: none;
+  font-weight: 600;
+}
+.theme-urgent-care .quote {
+  background: #fff;
+  border: 1px solid var(--line);
+}

@@ -1,0 +1,48 @@
+/* Néma: warm cream, soft wood, sage green with a dusty-rose undertone */
+.theme-ob-gyn-clinic {
+  --bg: #f8f3ec;
+  --surface: #ece2d6;
+  --text: #2a241f;
+  --muted: #695f56;
+  --accent: #849971;
+  --on-accent: #fbf6ef;
+  --radius: 20px;
+  --font-display: Georgia, 'Iowan Old Style', serif;
+}
+.theme-ob-gyn-clinic h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-ob-gyn-clinic .hero {
+  --text: #fbf6ef;
+  --muted: #e5dfd2;
+  --accent: #c9a6ae;
+  --on-accent: #2a241f;
+  background: #332c25;
+  color: var(--text);
+}
+.theme-ob-gyn-clinic .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-ob-gyn-clinic .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-ob-gyn-clinic .service__leader {
+  display: none;
+}
+.theme-ob-gyn-clinic .service__price {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.theme-ob-gyn-clinic .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-ob-gyn-clinic .quote {
+  background: var(--surface);
+}

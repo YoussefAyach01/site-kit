@@ -1,0 +1,52 @@
+/* Sourire Clair: warm cream, soft wood, fresh minty sage, clean rounded shapes */
+.theme-orthodontist {
+  --bg: #f7f4ea;
+  --surface: #e4ecdf;
+  --text: #212a1e;
+  --muted: #5d6453;
+  --accent: #5f9e7a;
+  --on-accent: #fbf8f0;
+  --radius: 22px;
+  --font-display: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+}
+.theme-orthodontist h1,
+.theme-orthodontist h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-orthodontist .hero {
+  --text: #fbf8f0;
+  --muted: #dde8d8;
+  --accent: #a4d9bb;
+  --on-accent: #1a2418;
+  background: #1a2418;
+  color: var(--text);
+}
+.theme-orthodontist .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-orthodontist .service {
+  padding: var(--space-6);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.theme-orthodontist .service__leader {
+  display: none;
+}
+.theme-orthodontist .service__head {
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.theme-orthodontist .highlights li {
+  background: var(--surface);
+  border: none;
+  font-weight: 600;
+}
+.theme-orthodontist .quote {
+  background: #fff;
+  border: 1px solid var(--line);
+}

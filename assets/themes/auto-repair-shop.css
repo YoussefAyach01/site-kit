@@ -1,0 +1,40 @@
+/* Garage Bouazza: workshop grey and ink, rust-red accent */
+.theme-auto-repair-shop {
+  --bg: #f1f1ef;
+  --surface: #e1e1de;
+  --text: #1e2124;
+  --muted: #4a4f55;
+  --accent: #b3361a;
+  --on-accent: #ffffff;
+  --radius: 4px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-auto-repair-shop h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-auto-repair-shop .hero {
+  --text: #f1f1ef;
+  --muted: #d0d1d0;
+  --accent: #ff9168;
+  --on-accent: #1e2124;
+  background: #1e2124;
+  color: var(--text);
+}
+.theme-auto-repair-shop .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-auto-repair-shop .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-auto-repair-shop .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-auto-repair-shop .highlights li {
+  background: var(--surface);
+  border: none;
+}

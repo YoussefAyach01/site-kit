@@ -1,0 +1,40 @@
+/* Route Libre Location: sky-blue white and deep navy, harbour-teal accent */
+.theme-car-rental {
+  --bg: #f4f7f9;
+  --surface: #e0e8ee;
+  --text: #12222e;
+  --muted: #3f5262;
+  --accent: #0a6b8a;
+  --on-accent: #ffffff;
+  --radius: 8px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-car-rental h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-car-rental .hero {
+  --text: #f4f7f9;
+  --muted: #cbd7df;
+  --accent: #72cdea;
+  --on-accent: #12222e;
+  background: #12222e;
+  color: var(--text);
+}
+.theme-car-rental .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-car-rental .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-car-rental .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-car-rental .highlights li {
+  background: var(--surface);
+  border: none;
+}

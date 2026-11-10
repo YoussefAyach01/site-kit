@@ -65,6 +65,12 @@ import { shoeStore } from './shoe-store.ts';
 import { furnitureStore } from './furniture-store.ts';
 import { sportingGoodsStore } from './sporting-goods-store.ts';
 
+// Automotive
+import { autoRepairShop } from './auto-repair-shop.ts';
+import { carDetailing } from './car-detailing.ts';
+import { carRental } from './car-rental.ts';
+import { usedCarDealership } from './used-car-dealership.ts';
+
 export const TEMPLATES: readonly SiteContent[] = [
   // Original templates
   restaurant,
@@ -126,4 +132,9 @@ export const TEMPLATES: readonly SiteContent[] = [
   shoeStore,
   furnitureStore,
   sportingGoodsStore,
+  // Automotive
+  autoRepairShop,
+  carDetailing,
+  carRental,
+  usedCarDealership,
 ];

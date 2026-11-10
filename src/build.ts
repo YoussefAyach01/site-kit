@@ -1,4 +1,4 @@
-import { cpSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderPage, esc } from './render.ts';
@@ -17,7 +17,13 @@ rmSync(dist, { recursive: true, force: true });
 
 for (const site of TEMPLATES) {
   const dir = join(dist, site.id);
-  cpSync(join(root, 'assets'), join(dir, 'assets'), { recursive: true });
+  mkdirSync(join(dir, 'assets', 'themes'), { recursive: true });
+  cpSync(join(root, 'assets', 'base.css'), join(dir, 'assets', 'base.css'));
+  cpSync(join(root, 'assets', 'themes', `${site.id}.css`), join(dir, 'assets', 'themes', `${site.id}.css`));
+  const imgDir = join(root, 'assets', 'images', site.id);
+  if (existsSync(imgDir)) {
+    cpSync(imgDir, join(dir, 'assets', 'images', site.id), { recursive: true });
+  }
   write(join(dir, 'index.html'), renderPage(site, { lang: 'fr', root: '', baseUrl }));
   write(join(dir, 'ar', 'index.html'), renderPage(site, { lang: 'ar', root: '../', baseUrl }));
 }

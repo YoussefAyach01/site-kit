@@ -109,6 +109,11 @@ it('escapes hostile business data', () => {
   expect(html).toContain('&lt;img src=x');
 });
 
+it('has no duplicate template ids', () => {
+  const ids = TEMPLATES.map((t) => t.id);
+  expect(new Set(ids).size).toBe(ids.length);
+});
+
 it('UI dictionary has both languages for every key', () => {
   for (const [key, v] of Object.entries(UI)) {
     expect(v.fr, key).toBeTruthy();

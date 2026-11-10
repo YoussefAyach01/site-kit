@@ -6,7 +6,7 @@ export interface Localized<T> {
   ar: T;
 }
 
-export type TemplateId = 'restaurant' | 'barber' | 'dentist' | 'gym';
+export type TemplateId = string;
 
 export interface ServiceItem {
   name: Localized<string>;

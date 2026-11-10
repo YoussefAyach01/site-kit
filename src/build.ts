@@ -1,8 +1,11 @@
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { renderPage, esc } from './render.ts';
+import sharp from 'sharp';
+import { renderPage } from './render.ts';
 import { TEMPLATES } from './content/index.ts';
+import { CATEGORIES } from './categories.ts';
+import { parsePalette, renderIndex, type Palette } from './index-page.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
@@ -28,13 +31,25 @@ for (const site of TEMPLATES) {
   write(join(dir, 'ar', 'index.html'), renderPage(site, { lang: 'ar', root: '../', baseUrl }));
 }
 
-const cards = TEMPLATES.map(
-  (s) =>
-    `<li><a href="${s.id}/">${esc(s.name.fr)}</a> · <a href="${s.id}/ar/" hreflang="ar" lang="ar">${esc(s.name.ar)}</a></li>`,
-).join('\n');
+// Index page: small thumbnails (the full heroes are ~250 KB each) + each niche's real palette.
+const palettes: Record<string, Palette> = {};
+const thumbs = new Set<string>();
+for (const site of TEMPLATES) {
+  const css = readFileSync(join(root, 'assets', 'themes', `${site.id}.css`), 'utf8');
+  palettes[site.id] = parsePalette(css, site.id);
+  const hero = join(root, 'assets', 'images', site.id, 'hero.webp');
+  if (existsSync(hero)) {
+    mkdirSync(join(dist, 'thumbs'), { recursive: true });
+    await sharp(hero)
+      .resize({ width: 480, height: 300, fit: 'cover' })
+      .webp({ quality: 72 })
+      .toFile(join(dist, 'thumbs', `${site.id}.webp`));
+    thumbs.add(site.id);
+  }
+}
 write(
   join(dist, 'index.html'),
-  `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>site-kit · démos</title></head><body style="font-family:system-ui;max-width:32rem;margin:2rem auto;padding:0 1rem;line-height:1.8"><h1>site-kit</h1><ul>${cards}</ul></body></html>\n`,
+  renderIndex({ templates: TEMPLATES, categories: CATEGORIES, palettes, thumbs }),
 );
 
 console.log(`Built ${TEMPLATES.length} templates x 2 languages into ${dist}`);

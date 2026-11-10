@@ -18,4 +18,4 @@ it('npm run build emits FR + AR pages and assets for all four templates', () => 
     }
     expect(readFileSync(join(root, 'dist', id, 'ar', 'index.html'), 'utf8')).toContain('dir="rtl"');
   }
-});
+}, 60_000);

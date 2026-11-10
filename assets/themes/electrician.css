@@ -1,0 +1,57 @@
+/* Elec Pro Casablanca: slate and safety amber, square corners, alert-reads-as-competent */
+.theme-electrician {
+  --bg: #f4f3ee;
+  --surface: #ffffff;
+  --text: #1c1b18;
+  --muted: #58554c;
+  --accent: #c8841a;
+  --on-accent: #1c1b18;
+  --radius: 2px;
+  --font-display: 'Segoe UI', Arial, sans-serif;
+}
+.theme-electrician h1,
+.theme-electrician h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+:lang(ar).theme-electrician h1,
+:lang(ar).theme-electrician h2 {
+  text-transform: none;
+}
+/* Hero sits over the hero photo, so remap to fixed dark/amber values for legible text */
+.theme-electrician .hero {
+  --text: #f7f3e9;
+  --muted: #d9cfb5;
+  --accent: #ffb13d;
+  --on-accent: #1c1b18;
+  background: #15171c;
+  color: var(--text);
+}
+.theme-electrician .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-electrician .service {
+  padding-block: var(--space-4);
+  border-block-start: 2px solid var(--text);
+}
+.theme-electrician .service__leader {
+  display: none;
+}
+.theme-electrician .service__price {
+  font-weight: 800;
+  color: var(--accent);
+}
+.theme-electrician .highlights li {
+  border: 2px solid var(--text);
+  border-radius: var(--radius);
+}
+.theme-electrician .quote {
+  background: #1c1b18;
+  color: #f7f3e9;
+}
+.theme-electrician .quote figcaption {
+  color: #d9cfb5;
+}

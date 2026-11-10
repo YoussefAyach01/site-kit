@@ -1,0 +1,62 @@
+/* Atlas Express Déménagement: truck-white and road-sign orange, bold and square */
+.theme-moving-company {
+  --bg: #f0f0ee;
+  --surface: #ffffff;
+  --text: #171717;
+  --muted: #45453f;
+  --accent: #d2601b;
+  --on-accent: #ffffff;
+  --radius: 0;
+  --font-display: 'Arial Narrow', Arial, sans-serif;
+}
+.theme-moving-company h1,
+.theme-moving-company h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+:lang(ar).theme-moving-company h1,
+:lang(ar).theme-moving-company h2 {
+  text-transform: none;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+/* Hero sits over the hero photo, so remap to fixed dark/orange values for legible text */
+.theme-moving-company .hero {
+  --text: #f6f4ef;
+  --muted: #dad7cd;
+  --accent: #ff8a3d;
+  --on-accent: #171717;
+  background: #171717;
+  color: var(--text);
+}
+.theme-moving-company .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-moving-company .service {
+  padding-block: var(--space-4);
+  border-block-start: 3px solid var(--text);
+}
+.theme-moving-company .service__leader {
+  display: none;
+}
+.theme-moving-company .service__head {
+  justify-content: space-between;
+}
+.theme-moving-company .service__price {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.theme-moving-company .highlights li {
+  border: 2px solid var(--text);
+  border-radius: 0;
+}
+.theme-moving-company .quote {
+  background: #171717;
+  color: #f6f4ef;
+}
+.theme-moving-company .quote figcaption {
+  color: #dad7cd;
+}

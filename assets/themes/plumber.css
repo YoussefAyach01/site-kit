@@ -1,0 +1,49 @@
+/* Plomberie Atlas: steel blue utility palette, white surfaces, direct and competent */
+.theme-plumber {
+  --bg: #eef2f5;
+  --surface: #ffffff;
+  --text: #1a2730;
+  --muted: #51636e;
+  --accent: #1d5f8a;
+  --on-accent: #ffffff;
+  --radius: 6px;
+  --font-display: 'Segoe UI', Arial, sans-serif;
+}
+.theme-plumber h1,
+.theme-plumber h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed dark/steel values for legible text */
+.theme-plumber .hero {
+  --text: #f2f6f8;
+  --muted: #c9d7df;
+  --accent: #5ab0e0;
+  --on-accent: #0b1b24;
+  background: #0f2733;
+  color: var(--text);
+}
+.theme-plumber .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-plumber .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-plumber .service__leader {
+  display: none;
+}
+.theme-plumber .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-plumber .highlights li {
+  background: var(--surface);
+  border: 1px solid #d6e0e6;
+}
+.theme-plumber .quote {
+  background: var(--surface);
+  border-inline-start: 4px solid var(--accent);
+}

@@ -1,0 +1,52 @@
+/* Atelier Lumière: warm neutral linen, charcoal type, restrained sage accent */
+.theme-interior-designer {
+  --bg: #f7f4ee;
+  --surface: #eee8dc;
+  --text: #2b2924;
+  --muted: #6b6558;
+  --accent: #8a7a5c;
+  --on-accent: #f7f4ee;
+  --radius: 2px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-interior-designer h1,
+.theme-interior-designer h2 {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-interior-designer .hero {
+  --text: #f7f4ee;
+  --muted: #d9d2c2;
+  --accent: #c7a876;
+  --on-accent: #2b2924;
+  background: #27241e;
+  color: var(--text);
+}
+.theme-interior-designer .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-interior-designer .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-interior-designer .service__leader {
+  display: none;
+}
+.theme-interior-designer .service__price {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--accent);
+}
+:lang(ar).theme-interior-designer .service__price {
+  font-style: normal;
+}
+.theme-interior-designer .highlights li {
+  background: var(--surface);
+  border: none;
+}
+.theme-interior-designer .quote {
+  background: var(--surface);
+}

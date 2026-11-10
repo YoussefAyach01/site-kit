@@ -1,0 +1,48 @@
+/* Atelier Couleurs: fresh sage-green swatch palette, clean whites, confident rounding */
+.theme-painter-decorator {
+  --bg: #f4f6f1;
+  --surface: #ffffff;
+  --text: #253021;
+  --muted: #576350;
+  --accent: #6f8f5a;
+  --on-accent: #ffffff;
+  --radius: 10px;
+  --font-display: 'Segoe UI', Arial, sans-serif;
+}
+.theme-painter-decorator h1,
+.theme-painter-decorator h2 {
+  font-weight: 700;
+}
+/* Hero sits over the hero photo, so remap to fixed sage/dark values for legible text */
+.theme-painter-decorator .hero {
+  --text: #f4f6f1;
+  --muted: #d4ddc9;
+  --accent: #a9cf8c;
+  --on-accent: #1d2518;
+  background: #202b1c;
+  color: var(--text);
+}
+.theme-painter-decorator .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-painter-decorator .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-painter-decorator .service__leader {
+  display: none;
+}
+.theme-painter-decorator .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-painter-decorator .highlights li {
+  background: var(--surface);
+  border: 1px solid #dde4d6;
+}
+.theme-painter-decorator .quote {
+  background: var(--surface);
+  border-inline-start: 4px solid var(--accent);
+}

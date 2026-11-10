@@ -1,0 +1,40 @@
+/* Monture & Lumiere: cool paper and charcoal, teal accent */
+.theme-eyewear-store {
+  --bg: #f4f4f1;
+  --surface: #e4e5df;
+  --text: #1d2224;
+  --muted: #484f52;
+  --accent: #2f6f6a;
+  --on-accent: #ffffff;
+  --radius: 6px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-eyewear-store h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-eyewear-store .hero {
+  --text: #f4f4f1;
+  --muted: #d0d3cf;
+  --accent: #8ad0c9;
+  --on-accent: #1d2224;
+  background: #1d2224;
+  color: var(--text);
+}
+.theme-eyewear-store .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-eyewear-store .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-eyewear-store .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-eyewear-store .highlights li {
+  background: var(--surface);
+  border: none;
+}

@@ -1,0 +1,40 @@
+/* Maison Lina: oat linen and clay, soft terracotta accent */
+.theme-clothing-boutique {
+  --bg: #f6f1ea;
+  --surface: #eadfd2;
+  --text: #2a2320;
+  --muted: #5b4e45;
+  --accent: #8a4b3a;
+  --on-accent: #ffffff;
+  --radius: 4px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-clothing-boutique h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-clothing-boutique .hero {
+  --text: #f8f1e8;
+  --muted: #e2d6c6;
+  --accent: #e8b49c;
+  --on-accent: #2a2320;
+  background: #2a2320;
+  color: var(--text);
+}
+.theme-clothing-boutique .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-clothing-boutique .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-clothing-boutique .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-clothing-boutique .highlights li {
+  background: var(--surface);
+  border: none;
+}

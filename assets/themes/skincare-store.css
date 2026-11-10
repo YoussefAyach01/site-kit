@@ -1,0 +1,40 @@
+/* L'Argan Pur: bone white and sage, calm botanical green */
+.theme-skincare-store {
+  --bg: #f7f4ee;
+  --surface: #ebe5d8;
+  --text: #2c3a33;
+  --muted: #55645b;
+  --accent: #4d6b58;
+  --on-accent: #ffffff;
+  --radius: 10px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-skincare-store h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-skincare-store .hero {
+  --text: #f7f4ee;
+  --muted: #d5dcd5;
+  --accent: #a9d3b8;
+  --on-accent: #2c3a33;
+  background: #2c3a33;
+  color: var(--text);
+}
+.theme-skincare-store .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-skincare-store .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-skincare-store .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-skincare-store .highlights li {
+  background: var(--surface);
+  border: none;
+}

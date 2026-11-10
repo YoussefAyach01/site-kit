@@ -1,0 +1,40 @@
+/* Les Pages Dorees: reading-room parchment and mahogany */
+.theme-bookstore {
+  --bg: #f3ece0;
+  --surface: #e5d9c6;
+  --text: #2b2118;
+  --muted: #5a4a3a;
+  --accent: #7a3b1e;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-bookstore h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-bookstore .hero {
+  --text: #f6eee0;
+  --muted: #ddd0bb;
+  --accent: #e8b574;
+  --on-accent: #2b2118;
+  background: #2b2118;
+  color: var(--text);
+}
+.theme-bookstore .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-bookstore .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-bookstore .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-bookstore .highlights li {
+  background: var(--surface);
+  border: none;
+}

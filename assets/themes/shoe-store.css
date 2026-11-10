@@ -1,0 +1,40 @@
+/* Pas de Cote: suede tan and espresso, saddle-brown accent */
+.theme-shoe-store {
+  --bg: #f3efe8;
+  --surface: #e5ded1;
+  --text: #231f1b;
+  --muted: #55493e;
+  --accent: #7d4a28;
+  --on-accent: #ffffff;
+  --radius: 4px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-shoe-store h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-shoe-store .hero {
+  --text: #f5f0e8;
+  --muted: #dcd3c4;
+  --accent: #e0a874;
+  --on-accent: #231f1b;
+  background: #231f1b;
+  color: var(--text);
+}
+.theme-shoe-store .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-shoe-store .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-shoe-store .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-shoe-store .highlights li {
+  background: var(--surface);
+  border: none;
+}

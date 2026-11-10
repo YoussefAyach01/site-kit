@@ -1,0 +1,40 @@
+/* Atelier Petale: pale leaf green and cream, rose accent */
+.theme-florist {
+  --bg: #f6f5ee;
+  --surface: #e6eadb;
+  --text: #26331f;
+  --muted: #4f5e45;
+  --accent: #8a3b55;
+  --on-accent: #ffffff;
+  --radius: 14px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-florist h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-florist .hero {
+  --text: #f6f5ee;
+  --muted: #d6dccb;
+  --accent: #f2a9be;
+  --on-accent: #26331f;
+  background: #26331f;
+  color: var(--text);
+}
+.theme-florist .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-florist .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-florist .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-florist .highlights li {
+  background: var(--surface);
+  border: none;
+}

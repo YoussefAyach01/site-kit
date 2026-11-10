@@ -1,0 +1,40 @@
+/* Poudre & Rose: blush paper and plum ink, raspberry accent */
+.theme-makeup-store {
+  --bg: #fbf3f2;
+  --surface: #f1dfdd;
+  --text: #3a2230;
+  --muted: #6a4a5c;
+  --accent: #a3345c;
+  --on-accent: #ffffff;
+  --radius: 12px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-makeup-store h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-makeup-store .hero {
+  --text: #fbeef0;
+  --muted: #e6cdd6;
+  --accent: #f4a3c0;
+  --on-accent: #3a2230;
+  background: #3a2230;
+  color: var(--text);
+}
+.theme-makeup-store .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-makeup-store .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-makeup-store .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-makeup-store .highlights li {
+  background: var(--surface);
+  border: none;
+}

@@ -52,6 +52,19 @@ import { architectureStudio } from './architecture-studio.ts';
 import { insuranceBroker } from './insurance-broker.ts';
 import { notary } from './notary.ts';
 
+// Retail & Commerce
+import { clothingBoutique } from './clothing-boutique.ts';
+import { skincareStore } from './skincare-store.ts';
+import { makeupStore } from './makeup-store.ts';
+import { florist } from './florist.ts';
+import { bookstore } from './bookstore.ts';
+import { petStore } from './pet-store.ts';
+import { jewelryStore } from './jewelry-store.ts';
+import { eyewearStore } from './eyewear-store.ts';
+import { shoeStore } from './shoe-store.ts';
+import { furnitureStore } from './furniture-store.ts';
+import { sportingGoodsStore } from './sporting-goods-store.ts';
+
 export const TEMPLATES: readonly SiteContent[] = [
   // Original templates
   restaurant,
@@ -101,4 +114,16 @@ export const TEMPLATES: readonly SiteContent[] = [
   architectureStudio,
   insuranceBroker,
   notary,
+  // Retail & Commerce
+  clothingBoutique,
+  skincareStore,
+  makeupStore,
+  florist,
+  bookstore,
+  petStore,
+  jewelryStore,
+  eyewearStore,
+  shoeStore,
+  furnitureStore,
+  sportingGoodsStore,
 ];

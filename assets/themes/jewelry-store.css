@@ -1,0 +1,40 @@
+/* Ambre & Or: warm ivory and midnight, antique gold on dark */
+.theme-jewelry-store {
+  --bg: #f5f2ed;
+  --surface: #e8e2d8;
+  --text: #1a1d29;
+  --muted: #4b4f60;
+  --accent: #6b4f10;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+.theme-jewelry-store h1 {
+  font-weight: 600;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-jewelry-store .hero {
+  --text: #f5f2ed;
+  --muted: #cfcdd0;
+  --accent: #d9b66a;
+  --on-accent: #12141f;
+  background: #12141f;
+  color: var(--text);
+}
+.theme-jewelry-store .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-jewelry-store .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-jewelry-store .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-jewelry-store .highlights li {
+  background: var(--surface);
+  border: none;
+}

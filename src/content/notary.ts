@@ -75,7 +75,7 @@ export const notary: SiteContent = {
   ],
   highlightsTitle: { fr: 'Notre approche', ar: 'نهجنا' },
   highlights: [
-    { fr: 'Titres vérifiés avant signature', ar: 'رسوم مدققة قبل التوقيع' },
+    { fr: 'Titres vérifiés avant signature', ar: 'رسوم عقارية مدققة قبل التوقيع' },
     { fr: 'Clauses expliquées', ar: 'شرح كل بند' },
     { fr: 'Tarifs réglementés affichés', ar: 'تعريفة قانونية معلنة' },
     { fr: 'Discrétion garantie', ar: 'كتمان مضمون' },

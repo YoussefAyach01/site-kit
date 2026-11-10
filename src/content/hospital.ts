@@ -23,7 +23,7 @@ export const hospital: SiteContent = {
     },
   },
   about: {
-    title: { fr: 'Un hôpital à taille humaine', ar: 'مستشفى بحجم إنساني' },
+    title: { fr: 'Un hôpital à taille humaine', ar: 'مستشفى قريب من مرضاه' },
     body: {
       fr: [
         'Al Manar réunit un service d’urgences, un bloc opératoire, une maternité et des consultations spécialisées, pensés pour que les patients ne soient jamais perdus dans de longs couloirs.',

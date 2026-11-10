@@ -8,7 +8,7 @@ export const lawFirm: SiteContent = {
   hero: {
     title: { fr: 'Le droit, expliqué avant d’être plaidé.', ar: 'القانون يُشرح قبل أن يُترافع به.' },
     sub: {
-      fr: 'Contrats, litiges commerciaux, successions, baux : nous vous disent clairement où vous en êtes, ce que cela coûte et quelles sont vos options.',
+      fr: 'Contrats, litiges commerciaux, successions, baux : nous vous disons clairement où vous en êtes, ce que cela coûte et quelles sont vos options.',
       ar: 'عقود ونزاعات تجارية وإرث وإيجارات: نوضّح لكم بدقة وضعكم القانوني وكلفته وخياراتكم.',
     },
     cta: { fr: 'Prendre rendez-vous', ar: 'احجزوا موعدًا' },
@@ -20,7 +20,7 @@ export const lawFirm: SiteContent = {
     },
   },
   about: {
-    title: { fr: 'Un cabinet à taille humaine', ar: 'مكتب بحجم إنساني' },
+    title: { fr: 'Un cabinet à taille humaine', ar: 'مكتب قريب من موكّليه' },
     body: {
       fr: [
         'Fondé à Casablanca par trois avocats inscrits au barreau depuis plus de vingt ans, le cabinet accompagne entrepreneurs, familles et investisseurs, en français comme en arabe.',

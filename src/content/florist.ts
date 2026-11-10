@@ -16,7 +16,7 @@ export const florist: SiteContent = {
   heroImage: {
     alt: {
       fr: 'Fleuriste nouant un bouquet de roses, pivoines et feuillages sur un établi en bois couvert de pétales, avec des vases en arrière-plan',
-      ar: 'بائعة زهور تربط باقة من الورد والفاوانيا والأوراق الخضراء فوق طاولة خشبية متناثر عليها البتلات، وخلفها أواني',
+      ar: 'بائعة زهور تربط باقة من الورد والفاوانيا والأوراق الخضراء فوق طاولة خشبية متناثر عليها البتلات، وخلفها مزهريات',
     },
   },
   about: {

@@ -9,7 +9,7 @@ export const drivingSchool: SiteContent = {
     title: { fr: 'Votre permis, sans stress et sans surprise.', ar: 'رخصتكم، بلا توتر ولا مفاجآت.' },
     sub: {
       fr: 'Moniteurs patients, voitures récentes à double commande, planning adapté à vos horaires. Cours de code en français et en arabe, et séances d’examen blanc.',
-      ar: 'مدربون صبورون وسيارات حديثة بمقودين وجدول يلائم أوقاتكم. دروس قانون السير بالفرنسية والعربية وامتحانات تجريبية.',
+      ar: 'مدربون صبورون وسيارات حديثة بتحكم مزدوج وجدول يلائم أوقاتكم. دروس قانون السير بالفرنسية والعربية وامتحانات تجريبية.',
     },
     cta: { fr: 'S’inscrire', ar: 'سجّلوا الآن' },
   },
@@ -81,7 +81,7 @@ export const drivingSchool: SiteContent = {
   highlightsTitle: { fr: 'Nos atouts', ar: 'ما يميزنا' },
   highlights: [
     { fr: 'Moniteurs agréés', ar: 'مدربون معتمدون' },
-    { fr: 'Voitures à double commande', ar: 'سيارات بمقودين' },
+    { fr: 'Voitures à double commande', ar: 'سيارات بتحكم مزدوج' },
     { fr: 'Code en français et en arabe', ar: 'القانون بالفرنسية والعربية' },
     { fr: 'Planning flexible', ar: 'جدول مرن' },
   ],

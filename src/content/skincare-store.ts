@@ -16,7 +16,7 @@ export const skincareStore: SiteContent = {
   heroImage: {
     alt: {
       fr: 'Flacons compte-gouttes et pots de crème sur un comptoir en marbre clair, avec une plante et des vases en arrière-plan',
-      ar: 'قوارير بقطّارة وعلب كريم فوق منضدة رخامية فاتحة، مع نبتة وأواني في الخلفية',
+      ar: 'قوارير بقطّارة وعلب كريم فوق منضدة رخامية فاتحة، مع نبتة ومزهريات في الخلفية',
     },
   },
   about: {
@@ -104,7 +104,7 @@ export const skincareStore: SiteContent = {
     email: 'contact@example.com',
     address: {
       fr: '5 rue Mohammed Zerktouni, Essaouira',
-      ar: '5 شارع محمد الزرقطوني، الصويرة',
+      ar: '5 زنقة محمد الزرقطوني، الصويرة',
     },
     hours: {
       fr: ['Lundi – Samedi : 10h – 19h', 'Dimanche : 11h – 16h'],

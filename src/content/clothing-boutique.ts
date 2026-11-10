@@ -103,7 +103,7 @@ export const clothingBoutique: SiteContent = {
     email: 'contact@example.com',
     address: {
       fr: '17 rue de la Liberté, Guéliz, Marrakech',
-      ar: '17 شارع الحرية، جيليز، مراكش',
+      ar: '17 زنقة الحرية، جيليز، مراكش',
     },
     hours: {
       fr: ['Lundi – Samedi : 10h – 19h30', 'Dimanche : fermé'],

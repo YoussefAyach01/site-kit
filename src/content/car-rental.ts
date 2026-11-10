@@ -79,7 +79,7 @@ export const carRental: SiteContent = {
     { fr: 'Assurance tous risques', ar: 'تأمين شامل' },
     { fr: 'Kilométrage illimité', ar: 'كيلومترات غير محدودة' },
     { fr: 'Second conducteur offert', ar: 'سائق ثانٍ مجاني' },
-    { fr: 'Assistance 24 h/24', ar: 'مساعدة طيلة اليوم' },
+    { fr: 'Assistance 24 h/24', ar: 'مساعدة على مدار الساعة' },
   ],
   testimonials: [
     {

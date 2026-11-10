@@ -7,6 +7,7 @@
   "scripts": {
     "build": "node src/build.ts",
     "serve": "node scripts/serve.mjs",
+    "process-images": "node scripts/process-hero-images.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
@@ -17,6 +18,7 @@
     "@types/node": "^22.0.0",
     "eslint": "^9.0.0",
     "prettier": "^3.3.0",
+    "sharp": "^0.35.5",
     "typescript": "^5.6.0",
     "typescript-eslint": "^8.0.0",
     "vitest": "^4.1.12"

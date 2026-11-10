@@ -34,6 +34,11 @@ describe('helpers', () => {
     expect(formatPrice(undefined, 'fr')).toBe('Sur devis');
   });
 
+  it('shows a "free" label instead of "0 MAD" for a zero price', () => {
+    expect(formatPrice(0, 'fr')).toBe('Gratuit');
+    expect(formatPrice(0, 'ar')).toBe('مجاني');
+  });
+
   it('never lets "<" through in JSON-LD', () => {
     expect(safeJson({ a: '</script><script>x' })).not.toContain('<');
   });
@@ -72,7 +77,7 @@ describe.each(TEMPLATES.map((c) => [c.id, c] as const))('template %s', (_id, con
 
   it('shows every service price', () => {
     const html = renderPage(content, { lang: 'fr', root: '' });
-    const withPrice = content.services.filter((s) => s.priceMad !== undefined).length;
+    const withPrice = content.services.filter((s) => s.priceMad !== undefined && s.priceMad > 0).length;
     expect(html.match(/class="service__price"/g)).toHaveLength(content.services.length);
     expect(html.match(/MAD/g)?.length ?? 0).toBeGreaterThanOrEqual(withPrice);
   });

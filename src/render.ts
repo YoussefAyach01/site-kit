@@ -29,6 +29,7 @@ export function telHref(phone: string): string {
 
 export function formatPrice(priceMad: number | undefined, lang: Lang): string {
   if (priceMad === undefined) return t('onQuote', lang);
+  if (priceMad === 0) return t('free', lang);
   const n = new Intl.NumberFormat(lang === 'ar' ? 'ar-MA-u-nu-latn' : 'fr-MA').format(priceMad);
   return `${n} ${t('currency', lang)}`;
 }

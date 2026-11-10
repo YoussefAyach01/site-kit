@@ -36,6 +36,9 @@ describe('helpers', () => {
 
   it('shows a "free" label instead of "0 MAD" for a zero price', () => {
     expect(formatPrice(0, 'fr')).toBe('Gratuit');
+    expect(formatPrice(650, 'fr', true)).toMatch(/^À partir de 650\sMAD$/);
+    expect(formatPrice(650, 'ar', true)).toMatch(/^ابتداءً من 650\sدرهم$/);
+    expect(formatPrice(undefined, 'fr', true)).toBe('Sur devis');
     expect(formatPrice(0, 'ar')).toBe('مجاني');
   });
 

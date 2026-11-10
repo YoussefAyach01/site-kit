@@ -40,10 +40,11 @@ export const jewelryStore: SiteContent = {
     {
       name: { fr: 'Collier fin en or 18 carats', ar: 'قلادة رقيقة من الذهب عيار 18' },
       desc: {
-        fr: 'Chaîne et pendentif, à partir de, selon le poids.',
-        ar: 'سلسلة وتعليقة، ابتداءً من، حسب الوزن.',
+        fr: 'Chaîne et pendentif, prix selon le poids.',
+        ar: 'سلسلة وتعليقة، السعر حسب الوزن.',
       },
       priceMad: 2400,
+      priceFrom: true,
     },
     {
       name: { fr: 'Bague de fiançailles sur mesure', ar: 'خاتم خطوبة حسب الطلب' },

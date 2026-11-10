@@ -37,26 +37,29 @@ export const insuranceBroker: SiteContent = {
     {
       name: { fr: 'Assurance automobile', ar: 'تأمين السيارات' },
       desc: {
-        fr: 'Tous risques ou tiers, comparés sur trois compagnies. À partir de.',
-        ar: 'شامل أو ضد الغير، مع مقارنة بين ثلاث شركات. ابتداءً من.',
+        fr: 'Tous risques ou tiers, comparés sur trois compagnies.',
+        ar: 'شامل أو ضد الغير، مع مقارنة بين ثلاث شركات.',
       },
       priceMad: 1800,
+      priceFrom: true,
     },
     {
       name: { fr: 'Assurance habitation', ar: 'تأمين المنزل' },
       desc: {
-        fr: 'Incendie, dégâts des eaux, vol et responsabilité civile. À partir de.',
-        ar: 'حريق وأضرار المياه وسرقة ومسؤولية مدنية. ابتداءً من.',
+        fr: 'Incendie, dégâts des eaux, vol et responsabilité civile.',
+        ar: 'حريق وأضرار المياه وسرقة ومسؤولية مدنية.',
       },
       priceMad: 600,
+      priceFrom: true,
     },
     {
       name: { fr: 'Mutuelle santé famille', ar: 'تغطية صحية للأسرة' },
       desc: {
-        fr: 'Complémentaire à l’AMO, hospitalisation et soins dentaires. À partir de.',
-        ar: 'تكميلية للتأمين الإجباري، تشمل الاستشفاء وعلاج الأسنان. ابتداءً من.',
+        fr: 'Complémentaire à l’AMO, hospitalisation et soins dentaires.',
+        ar: 'تكميلية للتأمين الإجباري، تشمل الاستشفاء وعلاج الأسنان.',
       },
       priceMad: 350,
+      priceFrom: true,
     },
     {
       name: { fr: 'Assurance professionnelle', ar: 'تأمين المهنيين' },

@@ -48,10 +48,11 @@ export const eyewearStore: SiteContent = {
     {
       name: { fr: 'Lunettes de vue complètes', ar: 'نظارات طبية كاملة' },
       desc: {
-        fr: 'Monture et deux verres amincis avec traitement anti-reflets, à partir de.',
-        ar: 'إطار وعدستان رقيقتان مع طبقة مضادة للانعكاس، ابتداءً من.',
+        fr: 'Monture et deux verres amincis avec traitement anti-reflets.',
+        ar: 'إطار وعدستان رقيقتان مع طبقة مضادة للانعكاس.',
       },
       priceMad: 850,
+      priceFrom: true,
     },
     {
       name: { fr: 'Lunettes de soleil', ar: 'نظارات شمسية' },

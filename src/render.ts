@@ -27,11 +27,12 @@ export function telHref(phone: string): string {
   return `tel:+${digits(phone)}`;
 }
 
-export function formatPrice(priceMad: number | undefined, lang: Lang): string {
+export function formatPrice(priceMad: number | undefined, lang: Lang, from = false): string {
   if (priceMad === undefined) return t('onQuote', lang);
   if (priceMad === 0) return t('free', lang);
   const n = new Intl.NumberFormat(lang === 'ar' ? 'ar-MA-u-nu-latn' : 'fr-MA').format(priceMad);
-  return `${n} ${t('currency', lang)}`;
+  const price = `${n} ${t('currency', lang)}`;
+  return from ? `${t('from', lang)} ${price}` : price;
 }
 
 /** JSON for a ld+json script block: "<" is escaped so content can never close the tag. */
@@ -73,7 +74,7 @@ export function renderPage(c: SiteContent, { lang, root, baseUrl, year }: Render
   const services = c.services
     .map(
       (s) => `<li class="service">
-          <div class="service__head"><h3>${esc(s.name[lang])}</h3><span class="service__leader" aria-hidden="true"></span><span class="service__price">${esc(formatPrice(s.priceMad, lang))}</span></div>
+          <div class="service__head"><h3>${esc(s.name[lang])}</h3><span class="service__leader" aria-hidden="true"></span><span class="service__price">${esc(formatPrice(s.priceMad, lang, s.priceFrom))}</span></div>
           <p>${esc(s.desc[lang])}</p>
         </li>`,
     )

@@ -35,20 +35,22 @@ export const usedCarDealership: SiteContent = {
   servicesTitle: { fr: 'Nos services', ar: 'خدماتنا' },
   services: [
     {
-      name: { fr: 'Citadine d’occasion (à partir de)', ar: 'سيارة صغيرة مستعملة (ابتداءً من)' },
+      name: { fr: 'Citadine d’occasion', ar: 'سيارة صغيرة مستعملة' },
       desc: {
         fr: 'Moins de 80 000 km, entretien complet, garantie six mois.',
         ar: 'أقل من 80 ألف كلم وصيانة كاملة وضمان ستة أشهر.',
       },
       priceMad: 85000,
+      priceFrom: true,
     },
     {
-      name: { fr: 'SUV et familiales (à partir de)', ar: 'سيارات دفع رباعي وعائلية (ابتداءً من)' },
+      name: { fr: 'SUV et familiales', ar: 'سيارات دفع رباعي وعائلية' },
       desc: {
         fr: 'Diesel et essence, contrôle 120 points inclus.',
         ar: 'ديزل وبنزين مع فحص من 120 نقطة.',
       },
       priceMad: 160000,
+      priceFrom: true,
     },
     {
       name: { fr: 'Reprise de votre ancienne voiture', ar: 'استبدال سيارتكم القديمة' },

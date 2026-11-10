@@ -37,10 +37,11 @@ export const sportingGoodsStore: SiteContent = {
     {
       name: { fr: 'Chaussures de running', ar: 'أحذية الجري' },
       desc: {
-        fr: 'Analyse de foulée offerte, plusieurs marques, à partir de.',
-        ar: 'تحليل الخطوة مجاني وعدة علامات، ابتداءً من.',
+        fr: 'Analyse de foulée offerte, plusieurs marques.',
+        ar: 'تحليل الخطوة مجاني وعدة علامات.',
       },
       priceMad: 650,
+      priceFrom: true,
     },
     {
       name: { fr: 'Ballons et équipement collectif', ar: 'كرات ومعدات جماعية' },

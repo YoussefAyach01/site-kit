@@ -64,10 +64,11 @@ export const petStore: SiteContent = {
     {
       name: { fr: 'Jouets en corde et caoutchouc', ar: 'ألعاب حبل ومطاط' },
       desc: {
-        fr: 'Résistants, sans plastique fragile, à partir de.',
-        ar: 'متينة وبلا بلاستيك هش، ابتداءً من.',
+        fr: 'Résistants, sans plastique fragile.',
+        ar: 'متينة وبلا بلاستيك هش.',
       },
       priceMad: 45,
+      priceFrom: true,
     },
     {
       name: { fr: 'Toilettage', ar: 'تنظيف وتجميل الحيوان' },

@@ -13,6 +13,8 @@ export interface ServiceItem {
   desc: Localized<string>;
   /** Price in MAD. Omit for "on quote". */
   priceMad?: number;
+  /** Show the price as a starting price ("À partir de …"). */
+  priceFrom?: boolean;
 }
 
 export interface SiteContent {

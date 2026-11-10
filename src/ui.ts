@@ -9,6 +9,7 @@ export const UI: Record<string, Localized<string>> = {
   langSwitchLabel: { fr: 'Lire ce site en arabe', ar: 'قراءة الموقع بالفرنسية' },
   currency: { fr: 'MAD', ar: 'درهم' },
   onQuote: { fr: 'Sur devis', ar: 'حسب الطلب' },
+  from: { fr: 'À partir de', ar: 'ابتداءً من' },
   free: { fr: 'Gratuit', ar: 'مجاني' },
   testimonials: { fr: 'Ils en parlent', ar: 'آراء الزبناء' },
   contactTitle: { fr: 'Nous trouver', ar: 'كيف تجدنا' },

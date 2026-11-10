@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const petStore: SiteContent = {
   id: 'pet-store',
-  name: { fr: 'Pattes & Compagnie', ar: 'مخالب وأصحاب' },
+  name: { fr: 'Pattes & Compagnie', ar: 'أقدام وأصحاب' },
   schemaType: 'PetStore',
   tagline: {
     fr: 'Alimentation, accessoires et conseils pour animaux',
@@ -30,7 +30,7 @@ export const petStore: SiteContent = {
         'Chaque croquette en rayon a été testée par nos propres animaux avant d’être proposée aux vôtres.',
       ],
       ar: [
-        'افتتح "مخالب وأصحاب" بأكادير منذ ثماني سنوات. لا نبيع الحيوانات: نعتني بمن يملكها، ونتعاون مع الملاجئ المحلية في التبني.',
+        'افتتح "أقدام وأصحاب" بأكادير منذ ثماني سنوات. لا نبيع الحيوانات: نعتني بمن يملكها، ونتعاون مع الملاجئ المحلية في التبني.',
         'كل غذاء في الرفوف جرّبته حيواناتنا نحن قبل أن نقدمه لحيواناتكم.',
       ],
     },

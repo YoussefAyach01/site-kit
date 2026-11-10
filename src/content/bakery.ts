@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const bakery: SiteContent = {
   id: 'bakery',
-  name: { fr: 'La Mie Dorée', ar: 'الفُتات الذهبي' },
+  name: { fr: 'La Mie Dorée', ar: 'الخبزة الذهبية' },
   schemaType: 'Bakery',
   tagline: {
     fr: 'Pains, viennoiseries et pâtisseries faits à la main',
@@ -30,7 +30,7 @@ export const bakery: SiteContent = {
         'Chaque pièce est façonnée à la main par notre équipe de trois boulangers, dès quatre heures du matin.',
       ],
       ar: [
-        'في "الفتات الذهبي" تُعجن العجينة في المساء وتُترك لترتاح طوال الليل، وهذا ما يمنحها ذلك الطعم واللباب الهش الذي يعرفه زبائننا بعيونٍ مغمضة.',
+        'في "الخبزة الذهبية" تُعجن العجينة في المساء وتُترك لترتاح طوال الليل، وهذا ما يمنحها ذلك الطعم واللباب الهش الذي يعرفه زبائننا بعيونٍ مغمضة.',
         'كل قطعة تُشكَّل يدويًا من طرف فريقنا المكوّن من ثلاثة خبازين، ابتداءً من الرابعة فجرًا.',
       ],
     },

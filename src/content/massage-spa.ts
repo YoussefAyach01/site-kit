@@ -93,7 +93,7 @@ export const massageSpa: SiteContent = {
     {
       quote: {
         fr: 'Le massage aux pierres chaudes a réglé mon mal de dos mieux que trois séances de kiné.',
-        ar: 'التدليك بالحجارة الساخنة عالج ألم ظهري أفضل من ثلاث جلسات علاج طبيعي.',
+        ar: 'التدليك بالحجارة الساخنة عالج ألم ظهري أفضل من ثلاث جلسات ترويض طبي.',
       },
       author: { fr: 'Fouad, Marrakech', ar: 'فؤاد، مراكش' },
     },

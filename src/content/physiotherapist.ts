@@ -2,11 +2,11 @@ import type { SiteContent } from '../types.ts';
 
 export const physiotherapist: SiteContent = {
   id: 'physiotherapist',
-  name: { fr: 'Kiné de la Source', ar: 'كينزيو النبع' },
+  name: { fr: 'Kiné de la Source', ar: 'مركز النبع للترويض الطبي' },
   schemaType: 'PhysicalTherapy',
   tagline: {
     fr: 'Kinésithérapie et rééducation du mouvement',
-    ar: 'علاج طبيعي وإعادة تأهيل الحركة',
+    ar: 'ترويض طبي وإعادة تأهيل الحركة',
   },
   hero: {
     title: { fr: 'Remettre le corps en mouvement.', ar: 'إعادة الجسد إلى الحركة.' },
@@ -19,7 +19,7 @@ export const physiotherapist: SiteContent = {
   heroImage: {
     alt: {
       fr: 'Salle de kinésithérapie aux murs terracotta, table de soin drapée de lin ocre et rouille, lumière tamisée par un voilage',
-      ar: 'قاعة علاج طبيعي بجدران طينية، وطاولة علاج مغطاة بكتان عنبري وصدئي، وضوء خافت يتسلل عبر ستارة شفافة',
+      ar: 'قاعة ترويض طبي بجدران طينية، وطاولة علاج مغطاة بكتان عنبري وصدئي، وضوء خافت يتسلل عبر ستارة شفافة',
     },
   },
   about: {
@@ -30,7 +30,7 @@ export const physiotherapist: SiteContent = {
         'Ici, chaque séance commence par une vraie discussion : d’où vient la douleur, ce qu’elle empêche de faire, et ce que vous voulez retrouver.',
       ],
       ar: [
-        'وُلدت كينزيو النبع من ملاحظة بسيطة: إعادة التأهيل تنجح أكثر حين يتابع معالج واحد الملف كاملاً، من أول ألم إلى العودة للرياضة.',
+        'وُلد مركز النبع للترويض الطبي من ملاحظة بسيطة: إعادة التأهيل تنجح أكثر حين يتابع معالج واحد الملف كاملاً، من أول ألم إلى العودة للرياضة.',
         'هنا تبدأ كل جلسة بحوار حقيقي: من أين يأتي الألم، وما الذي يمنعكم من فعله، وما الذي تريدون استعادته.',
       ],
     },
@@ -46,7 +46,7 @@ export const physiotherapist: SiteContent = {
       priceMad: 300,
     },
     {
-      name: { fr: 'Séance de kinésithérapie', ar: 'جلسة علاج طبيعي' },
+      name: { fr: 'Séance de kinésithérapie', ar: 'جلسة ترويض طبي' },
       desc: {
         fr: 'Mobilisations, exercices actifs et conseils à la maison.',
         ar: 'تحريكات وتمارين نشطة ونصائح للمنزل.',
@@ -62,7 +62,7 @@ export const physiotherapist: SiteContent = {
       priceMad: 280,
     },
     {
-      name: { fr: 'Kinésithérapie du sport', ar: 'العلاج الطبيعي الرياضي' },
+      name: { fr: 'Kinésithérapie du sport', ar: 'الترويض الطبي الرياضي' },
       desc: {
         fr: 'Prévention des blessures et retour au terrain encadré.',
         ar: 'الوقاية من الإصابات والعودة المؤطرة إلى الملاعب.',
@@ -115,7 +115,7 @@ export const physiotherapist: SiteContent = {
     },
     whatsappMessage: {
       fr: 'Bonjour, je voudrais prendre rendez-vous pour une séance de kiné le ... à ...h.',
-      ar: 'السلام عليكم، أود حجز موعد لجلسة علاج طبيعي يوم ... على الساعة ...',
+      ar: 'السلام عليكم، أود حجز موعد لجلسة ترويض طبي يوم ... على الساعة ...',
     },
   },
 };

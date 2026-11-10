@@ -42,6 +42,7 @@ import { interiorDesigner } from './interior-designer.ts';
 import { painterDecorator } from './painter-decorator.ts';
 import { movingCompany } from './moving-company.ts';
 import { cleaningService } from './cleaning-service.ts';
+import { hvacRepair } from './hvac-repair.ts';
 
 export const TEMPLATES: readonly SiteContent[] = [
   // Original templates
@@ -84,4 +85,5 @@ export const TEMPLATES: readonly SiteContent[] = [
   painterDecorator,
   movingCompany,
   cleaningService,
+  hvacRepair,
 ];

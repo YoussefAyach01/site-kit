@@ -1,0 +1,41 @@
+/* Froid Express Atlas: cool steel and frost white, one clear blue. Utilitarian. */
+.theme-hvac-repair {
+  --bg: #eef2f5;
+  --surface: #dde5ea;
+  --text: #14222e;
+  --muted: #3f5164;
+  --accent: #0b5c8f;
+  --on-accent: #ffffff;
+  --radius: 6px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+.theme-hvac-repair h1 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed light-on-dark values for legible text */
+.theme-hvac-repair .hero {
+  --text: #f1f5f8;
+  --muted: #cdd8e0;
+  --accent: #5cc0f2;
+  --on-accent: #14222e;
+  background: #14222e;
+  color: var(--text);
+}
+.theme-hvac-repair .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-hvac-repair .service {
+  padding-block: var(--space-4);
+  border-block-end: 1px solid var(--line);
+}
+.theme-hvac-repair .service__price {
+  font-weight: 700;
+  color: var(--accent);
+}
+.theme-hvac-repair .highlights li {
+  background: var(--surface);
+  border: none;
+}

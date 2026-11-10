@@ -1,0 +1,48 @@
+/* Le Four à Bois: stone cream, char oven black, tomato-fire accent */
+.theme-pizzeria {
+  --bg: #f6f0e4;
+  --surface: #ece0cb;
+  --text: #2e2117;
+  --muted: #6e5a47;
+  --accent: #c1442d;
+  --on-accent: #fdf6ec;
+  --radius: 6px;
+  --font-display: 'Rockwell', 'Courier New', 'Georgia', serif;
+}
+.theme-pizzeria h1,
+.theme-pizzeria h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-pizzeria .hero {
+  --text: #f7ece0;
+  --muted: #ddcab5;
+  --accent: #e2572f;
+  --on-accent: #241a12;
+  background: #241a12;
+  color: var(--text);
+}
+.theme-pizzeria .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-pizzeria .service {
+  padding-block: var(--space-4);
+  border-block-end: 2px dashed var(--line);
+}
+.theme-pizzeria .service__leader {
+  display: none;
+}
+.theme-pizzeria .service__head {
+  justify-content: space-between;
+}
+.theme-pizzeria .service__price {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.theme-pizzeria .highlights li {
+  border-radius: var(--radius);
+}

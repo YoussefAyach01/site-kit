@@ -1,0 +1,49 @@
+/* La Table Itinérante: linen neutrals, olive-gold accent, elegant and restrained */
+.theme-catering {
+  --bg: #f8f5ef;
+  --surface: #ece6d8;
+  --text: #2a2a20;
+  --muted: #68604f;
+  --accent: #8a6d2f;
+  --on-accent: #ffffff;
+  --radius: 2px;
+  --font-display: Optima, Candara, 'Segoe UI', sans-serif;
+}
+.theme-catering h1,
+.theme-catering h2 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-catering .hero {
+  --text: #f7f4ea;
+  --muted: #ddd8c5;
+  --accent: #c9a33b;
+  --on-accent: #2a2a20;
+  background: #2a2a20;
+  color: var(--text);
+}
+.theme-catering .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-catering .service {
+  padding: var(--space-6);
+  border: 1px solid var(--line);
+}
+.theme-catering .service__leader {
+  display: none;
+}
+.theme-catering .service__head {
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.theme-catering .service__price {
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+.theme-catering .quote {
+  background: #fff;
+  border: 1px solid var(--line);
+}

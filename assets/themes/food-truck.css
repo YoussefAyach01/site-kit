@@ -1,0 +1,48 @@
+/* La Roulotte Épicée: cream van body, sage + terracotta, playful and casual */
+.theme-food-truck {
+  --bg: #faf5ec;
+  --surface: #ece3d2;
+  --text: #2e2a1f;
+  --muted: #6b6250;
+  --accent: #c1623f;
+  --on-accent: #fdf8ef;
+  --radius: 999px;
+  --font-display: 'Arial Rounded MT Bold', Verdana, 'Segoe UI', sans-serif;
+}
+.theme-food-truck h1,
+.theme-food-truck h2 {
+  font-weight: 700;
+}
+/* Hero sits over the hero photo, so remap to fixed warm/dark values for legible text */
+.theme-food-truck .hero {
+  --text: #f7f1e4;
+  --muted: #ddd3bd;
+  --accent: #d97b4f;
+  --on-accent: #2e2a1f;
+  background: #2e2a1f;
+  color: var(--text);
+}
+.theme-food-truck .hero__art img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.theme-food-truck .service {
+  padding: var(--space-4) var(--space-6);
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+.theme-food-truck .service__leader {
+  display: none;
+}
+.theme-food-truck .service-list {
+  gap: var(--space-3);
+}
+.theme-food-truck .service__price {
+  color: var(--accent);
+  font-weight: 700;
+}
+.theme-food-truck .highlights li {
+  border: 2px solid #7c8c6e;
+  color: #7c8c6e;
+}

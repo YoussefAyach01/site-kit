@@ -83,6 +83,22 @@ describe.each(TEMPLATES.map((c) => [c.id, c] as const))('template %s', (_id, con
   });
 });
 
+it('renders a hero image when heroImage is set', () => {
+  const withImage: SiteContent = {
+    ...sample,
+    heroImage: { alt: { fr: 'Photo de test', ar: 'صورة اختبار' } },
+  };
+  const html = renderPage(withImage, { lang: 'fr', root: '' });
+  expect(html).toContain(`assets/images/${withImage.id}/hero.webp`);
+  expect(html).toContain('alt="Photo de test"');
+});
+
+it('keeps the CSS-only hero art when heroImage is absent', () => {
+  const html = renderPage(sample, { lang: 'fr', root: '' });
+  expect(html).not.toContain('<img');
+  expect(html).toContain('class="hero__art" aria-hidden="true"');
+});
+
 it('escapes hostile business data', () => {
   const evil: SiteContent = {
     ...sample,

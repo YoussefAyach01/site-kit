@@ -23,6 +23,8 @@ export interface SiteContent {
   schemaType: string;
   tagline: Localized<string>;
   hero: { title: Localized<string>; sub: Localized<string>; cta: Localized<string> };
+  /** The image file itself lives at assets/images/{id}/hero.webp by convention, not stored here. */
+  heroImage?: { alt: Localized<string> };
   about: { title: Localized<string>; body: Localized<string[]> };
   servicesTitle: Localized<string>;
   services: ServiceItem[];

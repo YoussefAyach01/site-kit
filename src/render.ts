@@ -53,6 +53,9 @@ export function renderPage(c: SiteContent, { lang, root, baseUrl, year }: Render
   const name = c.name[lang];
   const wa = waLink(c.contact.whatsapp, c.contact.whatsappMessage[lang]);
   const tel = telHref(c.contact.phone);
+  const heroArt = c.heroImage
+    ? `<div class="hero__art"><img src="${root}assets/images/${c.id}/hero.webp" alt="${esc(c.heroImage.alt[lang])}" loading="eager" decoding="async"></div>`
+    : `<div class="hero__art" aria-hidden="true"></div>`;
 
   const jsonLd = safeJson({
     '@context': 'https://schema.org',
@@ -123,7 +126,7 @@ export function renderPage(c: SiteContent, { lang, root, baseUrl, year }: Render
           <a class="btn" href="${esc(tel)}">${esc(t('call', lang))}</a>
         </p>
       </div>
-      <div class="hero__art" aria-hidden="true"></div>
+      ${heroArt}
     </section>
 
     <section class="about" id="about" aria-labelledby="about-h">

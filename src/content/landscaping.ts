@@ -19,7 +19,7 @@ export const landscaping: SiteContent = {
   heroImage: {
     alt: {
       fr: 'Jardinier taillant une haie de buis dans un jardin verdoyant et structuré, brouette remplie de résidus de taille et sac à outils au premier plan',
-      ar: 'بستاني يقلّم سياجاً من الشيح البري في حديقة خضراء منظمة، مع عربة يدوية مليئة ببقايا التقليم وحقيبة أدوات في الواجهة',
+      ar: 'بستاني يقلّم سياجاً من شجيرات البقس في حديقة خضراء منظمة، مع عربة يدوية مليئة ببقايا التقليم وحقيبة أدوات في الواجهة',
     },
   },
   about: {

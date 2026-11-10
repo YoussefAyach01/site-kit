@@ -23,14 +23,14 @@ export const catering: SiteContent = {
     },
   },
   about: {
-    title: { fr: 'Un traiteur qui connaît vos invités', ar: 'طاهٍ متنقل يعرف ضيوفكم' },
+    title: { fr: 'Un traiteur qui connaît vos invités', ar: 'ممون حفلات يعرف ضيوفكم' },
     body: {
       fr: [
         'La Table Itinérante a démarré avec les mariages de famille avant de devenir le traiteur de référence pour les entreprises de la région.',
         'Chaque menu est construit avec le client : allergies, préférences, budget. Rien n’est figé, tout est goûté avant validation.',
       ],
       ar: [
-        'انطلقت "المائدة المتجولة" من حفلات زفاف عائلية قبل أن تصبح الطاهي المعتمد لدى شركات المنطقة.',
+        'انطلقت "المائدة المتجولة" من حفلات زفاف عائلية قبل أن تصبح ممون الحفلات المرجعي لدى شركات المنطقة.',
         'تُبنى كل قائمة مع الزبون: الحساسيات والتفضيلات والميزانية. لا شيء ثابت، وكل شيء يُذاق قبل الاعتماد.',
       ],
     },

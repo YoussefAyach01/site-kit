@@ -15,7 +15,7 @@ export const veterinaryClinic: SiteContent = {
     },
     sub: {
       fr: 'Consultations, vaccins, chirurgie et urgences pour vos animaux, dans un cabinet calme pensé pour limiter leur stress.',
-      ar: 'استشارات وتلقيحات وجراحة واستعجالات لحيواناتكم، في عيادة هادئة صُممت لتقليل توترهم.',
+      ar: 'استشارات وتلقيحات وجراحة واستعجالات لحيواناتكم، في عيادة هادئة صُممت لتقليل توترها.',
     },
     cta: { fr: 'Prendre rendez-vous', ar: 'احجزوا موعداً' },
   },

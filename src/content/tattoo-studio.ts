@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const tattooStudio: SiteContent = {
   id: 'tattoo-studio',
-  name: { fr: 'Encre & Racines', ar: 'استوديو الوشم الجذور' },
+  name: { fr: 'Encre & Racines', ar: 'استوديو الجذور للوشم' },
   schemaType: 'TattooParlor',
   tagline: { fr: 'Studio de tatouage', ar: 'استوديو الوشم' },
   hero: {
@@ -27,7 +27,7 @@ export const tattooStudio: SiteContent = {
         'Avant chaque séance, un rendez-vous de consultation permet d’ajuster le dessin, la taille et l’emplacement jusqu’à ce qu’il vous convienne parfaitement.',
       ],
       ar: [
-        'يجمع استوديو الوشم الجذور ثلاثة فنانين متخصصين في الخطوط الدقيقة والواقعية والزخارف الأمازيغية المعاد تصورها.',
+        'يجمع استوديو الجذور للوشم ثلاثة فنانين متخصصين في الخطوط الدقيقة والواقعية والزخارف الأمازيغية المعاد تصورها.',
         'قبل كل جلسة، يتيح موعد استشارة تعديل الرسمة والحجم والمكان حتى يناسبكم تماماً.',
       ],
     },

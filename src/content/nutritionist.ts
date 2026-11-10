@@ -6,7 +6,7 @@ export const nutritionist: SiteContent = {
   schemaType: 'Nutritionist',
   tagline: { fr: 'Nutrition et accompagnement alimentaire', ar: 'تغذية ومرافقة غذائية' },
   hero: {
-    title: { fr: 'Manger mieux, sans se priver.', ar: 'تناول طعاماً أفضل، دون حرمان.' },
+    title: { fr: 'Manger mieux, sans se priver.', ar: 'تناولوا طعاماً أفضل، دون حرمان.' },
     sub: {
       fr: 'Bilans nutritionnels, plans alimentaires sur mesure et suivi de poids, diabète ou troubles digestifs, avec des produits que vous trouvez déjà au marché.',
       ar: 'فحوصات غذائية وخطط أكل مخصصة ومتابعة للوزن والسكري ومشاكل الهضم، باستخدام منتجات تجدونها في السوق أصلاً.',

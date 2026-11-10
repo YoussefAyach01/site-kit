@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const plumber: SiteContent = {
   id: 'plumber',
-  name: { fr: 'Plomberie Atlas', ar: 'السباكة الأطلس' },
+  name: { fr: 'Plomberie Atlas', ar: 'سباكة الأطلس' },
   schemaType: 'Plumber',
   tagline: { fr: 'Dépannage et installation sanitaire', ar: 'إصلاح وتركيب الأدوات الصحية' },
   hero: {
@@ -30,7 +30,7 @@ export const plumber: SiteContent = {
         'Nous expliquons toujours ce qui ne va pas, ce que ça va coûter, et combien de temps ça prendra, avant de commencer.',
       ],
       ar: [
-        'السباكة الأطلس فريق صغير من السباكين المؤهلين يغطي الدار البيضاء وضواحيها، للأعطاب العاجلة والأشغال المبرمجة على حد سواء.',
+        'سباكة الأطلس فريق صغير من السباكين المؤهلين يغطي الدار البيضاء وضواحيها، للأعطاب العاجلة والأشغال المبرمجة على حد سواء.',
         'نشرح دائماً ما هي المشكلة وكم ستكلف وكم من الوقت ستستغرق، قبل أن نبدأ أي عمل.',
       ],
     },
@@ -49,7 +49,7 @@ export const plumber: SiteContent = {
       name: { fr: 'Débouchage de canalisation', ar: 'تسليك قنوات الصرف' },
       desc: {
         fr: 'Évier, WC, douche : furet professionnel ou haute pression.',
-        ar: 'مغسلة أو مرحاض أو دوش: بالفتيلة المهنية أو الضغط العالي.',
+        ar: 'مغسلة أو مرحاض أو دوش: بالسلك اللولبي المهني أو الضغط العالي.',
       },
       priceMad: 250,
     },

@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const yogaStudio: SiteContent = {
   id: 'yoga-studio',
-  name: { fr: 'Studio Yoga Horizon', ar: 'استوديو اليوغا الأفق' },
+  name: { fr: 'Studio Yoga Horizon', ar: 'استوديو الأفق لليوغا' },
   schemaType: 'YogaStudio',
   tagline: { fr: 'Yoga, pilates et respiration', ar: 'يوغا وبيلاتيس وتنفس' },
   hero: {
@@ -27,7 +27,7 @@ export const yogaStudio: SiteContent = {
         'Nos professeures accueillent aussi bien les débutants complets que les pratiquants réguliers, sans jugement sur la souplesse du jour.',
       ],
       ar: [
-        'يجمع استوديو اليوغا الأفق بين اليوغا الهادئة والفينياسا الديناميكية والبيلاتيس على الريفورمر في مكان واحد، مصمم ليستقبل الضوء الطبيعي من الصباح إلى المساء.',
+        'يجمع استوديو الأفق لليوغا بين اليوغا الهادئة والفينياسا الديناميكية والبيلاتيس على الريفورمر في مكان واحد، مصمم ليستقبل الضوء الطبيعي من الصباح إلى المساء.',
         'تستقبل معلماتنا المبتدئين تماماً وكذلك الممارسين المنتظمين، دون أي حكم على مرونة اليوم.',
       ],
     },

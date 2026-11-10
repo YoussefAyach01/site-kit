@@ -76,7 +76,7 @@ export const barber: SiteContent = {
     {
       quote: {
         fr: 'Ponctuel, propre, et le rasage à l’ancienne est incroyable.',
-        ar: 'دقيق في المواعيد ونظيف والحلاقة القديمة رائعة.',
+        ar: 'دقيق في المواعيد ونظيف والحلاقة على الطريقة التقليدية رائعة.',
       },
       author: { fr: 'Yassine', ar: 'ياسين' },
     },

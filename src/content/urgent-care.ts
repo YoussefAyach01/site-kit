@@ -19,13 +19,13 @@ export const urgentCare: SiteContent = {
   heroImage: {
     alt: {
       fr: 'Salle de soins moderne avec cabine d’examen vert sauge et équipement médical mobile',
-      ar: 'غرفة عناية عصرية بقوس أخضر مريح وتجهيزات طبية متنقلة',
+      ar: 'غرفة عناية عصرية بمقصورة فحص خضراء هادئة وتجهيزات طبية متنقلة',
     },
   },
   about: {
     title: {
       fr: 'Pensé pour les urgences qui n’en sont pas tout à fait',
-      ar: 'مُصمَّم للحالات المستعجلة، لكن بدون ذعر',
+      ar: 'مُصمَّم للحالات المستعجلة التي لا تستدعي المستشفى',
     },
     body: {
       fr: [

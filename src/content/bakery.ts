@@ -30,7 +30,7 @@ export const bakery: SiteContent = {
         'Chaque pièce est façonnée à la main par notre équipe de trois boulangers, dès quatre heures du matin.',
       ],
       ar: [
-        'في "الفتات الذهبي" تُعجن العجينة في المساء وتُترك لترتاح طوال الليل، وهذا ما يمنحها ذلك الطعم والفتات الهش الذي يعرفه زبائننا بعيونٍ مغمضة.',
+        'في "الفتات الذهبي" تُعجن العجينة في المساء وتُترك لترتاح طوال الليل، وهذا ما يمنحها ذلك الطعم واللباب الهش الذي يعرفه زبائننا بعيونٍ مغمضة.',
         'كل قطعة تُشكَّل يدويًا من طرف فريقنا المكوّن من ثلاثة خبازين، ابتداءً من الرابعة فجرًا.',
       ],
     },
@@ -46,7 +46,7 @@ export const bakery: SiteContent = {
       name: { fr: 'Pain au levain', ar: 'خبز الخميرة البرية' },
       desc: {
         fr: 'Farine complète, croûte épaisse, mie dense.',
-        ar: 'دقيق كامل وقشرة سميكة وفتات كثيف.',
+        ar: 'دقيق كامل وقشرة سميكة ولباب كثيف.',
       },
       priceMad: 22,
     },
@@ -54,7 +54,7 @@ export const bakery: SiteContent = {
       name: { fr: 'Tarte aux fruits de saison', ar: 'تارت بفواكه الموسم' },
       desc: {
         fr: 'Pâte sablée, crème pâtissière, fruits du marché.',
-        ar: 'عجين مقرمش وكريمة حلوى وفواكه من السوق.',
+        ar: 'عجين مقرمش وكريمة باتيسيير وفواكه من السوق.',
       },
       priceMad: 35,
     },
@@ -75,7 +75,7 @@ export const bakery: SiteContent = {
   highlights: [
     { fr: 'Fermentation lente', ar: 'تخمير بطيء' },
     { fr: 'Sans additifs', ar: 'بدون مواد مضافة' },
-    { fr: 'Commandes sur mesure', ar: 'طلبات حسب الطلب' },
+    { fr: 'Commandes sur mesure', ar: 'طلبيات خاصة' },
     { fr: 'Livraison le matin', ar: 'توصيل صباحي' },
   ],
   testimonials: [

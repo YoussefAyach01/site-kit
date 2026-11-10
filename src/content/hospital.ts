@@ -79,7 +79,7 @@ export const hospital: SiteContent = {
   highlights: [
     { fr: 'Urgences ouvertes 24h/24', ar: 'مستعجلات مفتوحة على مدار الساعة' },
     { fr: 'Chambres individuelles', ar: 'غرف فردية' },
-    { fr: 'Conventionné avec les assurances', ar: 'متعامد مع شركات التأمين' },
+    { fr: 'Conventionné avec les assurances', ar: 'متعاقد مع شركات التأمين' },
     { fr: 'Plateau technique complet', ar: 'تجهيزات طبية متكاملة' },
   ],
   testimonials: [
@@ -112,7 +112,7 @@ export const hospital: SiteContent = {
     },
     whatsappMessage: {
       fr: 'Bonjour, je souhaite des informations sur ... (consultation, hospitalisation, maternité...).',
-      ar: 'السلام عليكم، أود معلومات حول ... (استشارة، تنويم، ولادة...).',
+      ar: 'السلام عليكم، أود معلومات حول ... (استشارة، استشفاء، ولادة...).',
     },
   },
 };

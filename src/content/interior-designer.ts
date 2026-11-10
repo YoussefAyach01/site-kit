@@ -107,7 +107,7 @@ export const interiorDesigner: SiteContent = {
     email: 'contact@example.com',
     address: {
       fr: '19 rue Jean Jaurès, Racine, Casablanca',
-      ar: '19 زنقة جون جوريس، الراسين، الدار البيضاء',
+      ar: '19 زنقة جان جوريس، الراسين، الدار البيضاء',
     },
     hours: {
       fr: ['Lundi – Vendredi : 9h – 18h30', 'Samedi sur rendez-vous'],

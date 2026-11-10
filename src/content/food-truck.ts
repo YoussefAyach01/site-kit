@@ -2,7 +2,7 @@ import type { SiteContent } from '../types.ts';
 
 export const foodTruck: SiteContent = {
   id: 'food-truck',
-  name: { fr: 'La Roulotte Épicée', ar: 'العربة التوابلية' },
+  name: { fr: 'La Roulotte Épicée', ar: 'عربة التوابل' },
   schemaType: 'FastFoodRestaurant',
   tagline: { fr: 'Street food marocaine, revisitée', ar: 'أكل الشارع المغربي بلمسة عصرية' },
   hero: {
@@ -27,7 +27,7 @@ export const foodTruck: SiteContent = {
         'On change le menu selon les produits de saison trouvés au marché du matin, et on cuisine tout à la commande, devant vous.',
       ],
       ar: [
-        'انطلقت "العربة التوابلية" من كشك سندويتشات كان يديره حمزة خلال دراسته. تبعه النجاح، ثم الشاحنة التي جُهّزت يدويًا بمساعدة أصدقاء نجارين.',
+        'انطلقت "عربة التوابل" من كشك سندويتشات كان يديره حمزة خلال دراسته. تبعه النجاح، ثم الشاحنة التي جُهّزت يدويًا بمساعدة أصدقاء نجارين.',
         'نغيّر القائمة حسب منتجات الموسم التي نجدها في سوق الصباح، ونطبخ كل شيء عند الطلب أمام أعينكم.',
       ],
     },

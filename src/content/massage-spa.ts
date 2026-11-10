@@ -104,7 +104,7 @@ export const massageSpa: SiteContent = {
     email: 'contact@example.com',
     address: {
       fr: '22 derb Sidi Bouloukat, Médina, Marrakech',
-      ar: '22 درب سيدي بولوكات، المدينة القديمة، مراكش',
+      ar: '22 درب سيدي بولوقات، المدينة القديمة، مراكش',
     },
     hours: {
       fr: ['Tous les jours : 10h – 20h'],
